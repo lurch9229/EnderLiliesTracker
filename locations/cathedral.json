@@ -1,0 +1,195 @@
+[
+    {
+        "name": "Cathedral",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Luminant Aegis Curio",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 870,
+                        "y": 4410
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A10",
+                        "item_count": 1,
+                        "access_rules":
+                         [
+                            "unlock,tablet:7"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 4520,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A3 Inside Barrel",
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            }, 
+          {
+                "name": "Amulet Fragment (+5 HP)",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 8480,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A5",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Soiled Prayer Beads",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 8270,
+                        "y": 2620
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A6",
+                        "access_rules":
+                        [
+                            "$LEDGE",
+                            "claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Guardian Siegrid Fight",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 9500,
+                        "y": 2700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A7",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Chief Guardian Fight",
+                "map_locations":
+                [
+                    {
+                        "map": "Cathedral",
+                        "x": 4320,
+                        "y": 1450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A8",
+                        "access_rules":
+                        [
+                            "claws"
+
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Furious Blight (x30)",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 5660,
+                        "y": 1450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A8",
+                        "access_rules":
+                        [
+                            "claws"
+                        ], 
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Vibrant Plume",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 6800,
+                        "y": 1450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A8",
+                        "access_rules":
+                        [
+                            "claws,dash,lance,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Priestess' Wish (Prayer Upgrade) ",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 5000,
+                        "y": 600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A9",
+                        "access_rules":
+                        [
+                            "claws,hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

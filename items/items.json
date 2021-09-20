@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Amulet Fragment",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/Amulet_Fragment.png",
+    "codes": "fragment",
+    "max_quantity": 36,
+    "initial_quantity": 0,
+    "increment": 1,
+	"swap_actions": false
+  }, 
+  {
+    "name": "Amulet Gem",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/Amulet_Gem.png",
+    "codes": "gem",
+    "max_quantity": 6,
+    "initial_quantity": 0,
+    "increment": 1,
+	"swap_actions": false
+  },
+  {
+    "name": "Bloody Knight's Claws",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/bloody_knights_claws.png",
+    "codes": "claws",
+	"swap_actions": false
+  },
+  {
+    "name": "Chain Of Sorcery",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/items/Chain_of_Sorcery.png",
+    "codes": "relicslot",
+    "min_quantity": 2,
+    "max_quantity": 20,
+    "initial_quantity": 2,
+    "increment": 1,
+	"swap_actions": false
+  },
+  {
+    "name": "Dash",
+    "type": "toggle",
+	"allow_disabled": false,
+    "loop": "false",
+    "img": "images/items/dash.png",
+    "codes": "dash",
+	"swap_actions": false
+  }, 
+  {
+    "name": "Dodge",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/dodge.png",
+    "codes": "dodge"
+  },
+  {
+    "name": "Executioner's Hook",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/executioners_hook.png",
+    "codes": "hook",
+	"swap_actions": false
+  },
+  {
+    "name": "Giant's Hammer",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/giants_hammer.png",
+    "codes": "hammer",
+	"swap_actions": false
+  },
+  {
+    "name": "Guardian's Leap",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/guardians_leap.png",
+    "codes": "djump",
+	"swap_actions": false
+  },
+  {
+    "name": "Guardian's Wings",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/guardians_wings.png",
+    "codes": "dodge2",
+	"swap_actions": false
+  },
+  {
+    "name": "Jump",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/jump.png",
+    "codes": "jump",
+  },
+  {
+    "name": "Last Rites",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/last_rites.png",
+    "codes": "rites,ult",
+	"swap_actions": false
+  },
+  {
+    "name": "Piercing Spectral Lance",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/piercing_spectral_lance.png",
+    "codes": "lance",
+	"swap_actions": false
+  },
+  {
+    "name": "Prayer",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/Prayer.png",
+    "codes": "pray"
+  },
+  {
+    "name": "Pristess' Wish",
+    "type": "consumable",
+    "max_quantity": 8,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/items/Priestess_Wish.png",
+    "codes": "wish",
+	"swap_actions": false
+  },
+  {
+    "name": "Stone Tablet Fragment",
+    "type": "consumable",
+    "max_quantity": 7,
+    "increment": 1,
+    "loop": "false",
+    "img": "images/items/stone_tablet.png",
+    "codes": "tablet",
+	"swap_actions": false
+  },
+  {
+    "name": "Swim",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/swim.png",
+    "codes": "paddle",
+  },
+  {
+    "name": "Switch Spirits",
+    "type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+    "img": "images/items/switch.png",
+    "codes": "switch",
+  },
+  {
+    "name": "Unlock",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/unlock.png",
+    "codes": "unlock",
+	"swap_actions": false
+  },
+  {
+    "name": "Witch's Bubble",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/witchs_bubble.png",
+    "codes": "aquatic",
+	"swap_actions": false
+  },
+  {
+    "name": "Witch's Bubble",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/items/witchs_bubble.png",
+    "codes": "aquatic",
+	"swap_actions": false
+  },
+  {
+    "name": "Health",
+    "type": "toggle",
+    "loop": "false",
+    "codes": "health",
+	"swap_actions": false
+  }
+]

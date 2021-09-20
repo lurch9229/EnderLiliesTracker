@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Castle Town Maiden",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/castle_town_maiden.png",
+    "codes": "maiden",
+	"swap_actions": false
+  },
+  {
+    "name": "Chief Guardian",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/chief_guardian.png",
+    "codes": "chief",
+	  "action_swap": false
+  },
+  {
+    "name": "Cliffside Hamlet Elder",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/cliffside_hamlet_elder.png",
+    "codes": "cliffelder",
+	  "action_swap": false
+  },
+  {
+    "name": "Cliffside Hamlet Youth",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/cliffside_hamlet_youth.png",
+    "codes": "cliffyouth",
+	  "action_swap": false
+  },
+  {
+    "name": "Dark Executioner",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/dark_executioner.png",
+    "codes": "executioner",
+	  "action_swap": false
+  },
+  {
+    "name": "Dark Witch Eleine",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/dark_witch_eleine.png",
+    "codes": "eleine"
+  },
+  {
+    "name": "Elder Crypt Keeper",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/elder_crypt_keeper.png",
+    "codes": "elderkeeper"
+  },
+  {
+    "name": "Faden, The Heretic",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/faden_the_heretic.png",
+    "codes": "faden"
+  },
+  {
+    "name": "Fallen Archer",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/fallen_archer.png",
+    "codes": "archer"
+  },
+  {
+    "name": "Fallen Sentinel",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/fallen_sentinel.png",
+    "codes": "sentinel"
+  },
+  {
+    "name": "Floral Sorceress",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/floral_sorceress.png",
+    "codes": "floral"
+  },
+  {
+    "name": "Forsaken Fellwyrm",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/forsaken_fellwyrm.png",
+    "codes": "fellwyrm"
+  },
+  {
+    "name": "Fungal Sorcerer",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/fungal_sorcerer.png",
+    "codes": "fungal"
+  },
+  {
+    "name": "Gerrod, The Elder Warrior ",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/gerrod.png",
+    "codes": "gerrod"
+  },
+  {
+    "name": "Guardian Siegrid",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/guardian_siegrid.png",
+    "codes": "siegrid"
+  },
+  {
+    "name": "Guardian Silva",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/guardian_silva.png",
+    "codes": "silva"
+  },
+  {
+    "name": "Headless Defender",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/headless_defender.png",
+    "codes": "headless"
+  },
+  {
+    "name": "Hidden Test Subject",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/hidden_test_subject.png",
+    "codes": "testsubject"
+  },
+  {
+    "name": "Hoenir, Keeper Of The Abyss",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/hoenir.png",
+    "codes": "hoenir"
+  },
+  {
+    "name": "Incompetent Sinner",
+    "type": "toggle",
+    "img": "images/spirits/incompetent_sinner.png",
+    "codes": "sinner"
+  },
+  {
+    "name": "Knight Captain Julius ",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/julius.png",
+    "codes": "julius"
+  },
+  {
+    "name": "One-Eyed Royal Aegis",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/one-eyed_royal_aegis.png",
+    "codes": "royalaegis"
+  },
+  {
+    "name": "Ulv, The Mad Knight",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/ulv.png",
+    "codes": "ulv"
+  },
+  {
+    "name": "Umbral Knight",
+	"type": "toggle",
+	"initial_active_state": true,
+	"allow_disabled": false,
+	"img": "images/spirits/umbral_knight.png",
+    "codes": "umbral"
+  },
+  {
+    "name": "Verboten Champion",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/verboten_champion.png",
+    "codes": "verboten"
+  },
+  {"name": "Western Merchant",
+    "type": "toggle",
+    "loop": "false",
+    "img": "images/spirits/western_merchant.png",
+    "codes": "merchant"
+  }
+]

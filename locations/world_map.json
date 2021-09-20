@@ -1,0 +1,4028 @@
+[
+    {
+        "name": "World Map",
+        "chest_unopened_img": "images/items/chest_x.png",
+        "chest_opened_img": "images/items/chest_o.png",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "A3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 990,
+                        "y": 2850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules":
+                        [
+                            ""
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 1610,
+                        "y": 2850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 1715,
+                        "y": 2660
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Soiled Prayer Beads",
+                        "access_rules":
+                        [
+                            "$LEDGE",
+                            "claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A7",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 2135,
+                        "y": 2660
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Guardian Siegrid Fight",
+                        "access_rules": 
+                        [
+                            ""
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "A8",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 1300,
+                        "y": 2403
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chief Guardian Fight",
+                        "access_rules":
+                        [
+                            "claws"
+
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules":
+                        [
+                            "claws"
+                        ], 
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vibrant Plume",
+                        "access_rules":
+                        [
+                            "claws,dash,lance,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 1300,
+                        "y": 2320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade) ",
+                        "access_rules":
+                        [
+                            "claws,hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "A10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 455,
+                        "y": 3165
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Luminant Aegis Curio",
+                        "item_count": 1,
+                        "access_rules":
+                         [
+                            "unlock,tablet:7"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "B3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 3415,
+                        "y": 2665
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules":[
+                            "$B3ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cliffside Hamlet Youth Fight",
+                        "access_rules": [
+                            "$B3ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "B4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 3830,
+                        "y": 2660
+                    }
+                ],
+                    "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$B4ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 4545,
+                        "y": 2230
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules":
+                        [
+                            "$C1ACCESS,hook",
+                            "$C1ACCESS,$LEDGE2",
+							"$C1ACCESS,djump,$HORIZONTAL",
+							"$C1ACCESS,sinner",
+							"$C1ACCESS,silva,ulv,fretia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules":
+                        [
+                            "$C1ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules":
+                        [
+                            "$C2ACCESS,hook",
+                            "$C2ACCESS,djump,silva",
+                            "$C2ACCESS,verboten,silva"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5000,
+                        "y": 2075
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules":
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C2ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "C2",
+                        "access_rules": 
+                        [
+                            "$C2ACCESS,claws",
+                            "$C2ACCESS,silva",
+                            "$C2ACCESS,$HORIZONTAL",
+                            "$C2ACCESS,djump",
+                            "$C2ACCESS,$AIRSTALL",
+                            "$C2ACCESS,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5850,
+                        "y": 2040
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules":
+                        [
+                            "$C4ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2 Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C4ACCESS,hammer,claws",
+                            "$C4ACCESS,hammer,hook",
+                            "$C4ACCESS,hammer,verboten,djump",
+                            "$C4ACCESS,hammer,verboten,silva"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules":
+                        [
+                            "$C4ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$C4ACCESS,hook",
+                            "$C4ACCESS,claws",
+                            "$C4ACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C4ACCESS,claws,$LEDGE",
+                            "$C4ACCESS,$LEDGE2",
+                            "$C4ACCESS,plume,verboten",
+                            "$C4ACCESS,plume,djump",
+                            "$C4ACCESS,plume,sinner",
+                            "$C4ACCESS,sinner,silva",
+                            "$C4ACCESS,$HORIZONTAL,verboten",
+                            "$C4ACCESS,$HORIZONTAL2,hook",
+                            "$C4ACCESS,djump,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6510,
+                        "y": 1880
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules":
+                        [
+                            "$C5ACCESS,hook,djump",
+                            "$C5ACCESS,hook,silva",
+                            "$C5ACCESS,hook,verboten",
+                            "$C5ACCESS,djump,silva",
+                            "$C5ACCESS,verboten,silva",
+                            "$C5ACCESS,djump,verboten"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C5ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$LEDGE",
+                            "plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6510,
+                        "y": 2060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C6ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$C6ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Headless Defender Fight",
+                        "access_rules": 
+                        [
+                            "$C6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5000,
+                        "y": 2400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules":
+                        [
+                            "$C6ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant's Ring",
+                        "access_rules": 
+                        [
+                            "aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$C9ACCESS1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "access_rules": 
+                        [
+                            "$C9ACCESS1,$LEDGE2",
+                            "$C9ACCESS1,$LEDGE,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5880,
+                        "y": 2350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C10ACCESS9"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6570,
+                        "y": 2400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fretia's Ring",
+                        "access_rules": 
+                        [
+                            "$C11ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x800",
+                        "access_rules":
+                        [
+                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump,claws",
+                            "$C11ACCESS,claws,silva,ulv,djump,dodge2",
+                            "$C11ACCESS,claws,$HORIZONTAL2,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5515,
+                        "y": 2550
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "access_rules": 
+                        [
+                            "$C10ACCESS9,dash,lance"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C13",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5170,
+                        "y": 1860
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bloodstained Ribbon",
+                        "access_rules": 
+                        [
+                            "$C13ACCESS,$LEDGE2",
+                            "$C13ACCESS,hook,djump",
+                            "$C13ACCESS,hook,$HORIZONTAL",
+                            "$C13ACCESS,hook,dash",
+                            "$C13ACCESS,djump,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C14",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5110,
+                        "y": 1710
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Western Merchant Fight",
+                        "access_rules": 
+                        [
+                            "$C13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C15",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6808,
+                        "y": 1685
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$C15ACCESS,hammer,claws,$LEDGE",
+                            "$C15ACCESS,hammer,$FULLSILVA",
+                            "$C15ACCESS,hammer,hook"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$C15ACCESS,hammer,djump,dodge2,claws",
+                            "$C15ACCESS,hammer,djump,dodge2,dash",
+                            "$C15ACCESS,hammer,djump,dodge2,ulv,plume",
+                            "$C15ACCESS,hammer,djump,dodge2,ulv,fretia",
+                            "$C15ACCESS,hammer,dodge2,verboten,claws",
+                            "$C15ACCESS,hammer,dodge2,verboten,ulv,fretia",
+                            "$C15ACCESS,hammer,sinner,verboten",
+                            "$C15ACCESS,hammer,dodge2,silva,claws",
+                            "$C15ACCESS,hammer,sinner,silva",
+                            "$C15ACCESS,hammer,djump,sinner",
+                            "$C15ACCESS,hammer,$HORIZONTAL2,plume",
+                            "$C15ACCESS,hammer,hook",
+                            "$C15ACCESS,hammer,silva,djump,claws",
+                            "$C15ACCESS,hammer,djump,silva,ulv,fretia",
+                            "$C15ACCESS,hammer,verboten,djump,ulv,fretia",
+                            "$C15ACCESS,hammer,plume,silva,djump,ulv",
+                            "$C15ACCESS,hammer,plume,verboten,silva,ulv,fretia",
+                            "$C15ACCESS,hammer,$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cliffside Hamlet Elder Fight",
+                        "access_rules": 
+                        [
+                            "$C15ACCESS,plume",
+                            "$C15ACCESS,$LEDGE",
+                            "$C15ACCESS,hook,$HORIZONTAL",
+                            "$C15ACCESS,hook,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C8",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7380,
+                        "y": 1890
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Gerrod, The Elder Warrior Fight",
+                        "access_rules": 
+                        [
+                            "$C8ACCESS"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "C16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8540,
+                        "y": 2090
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$C16ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$C16ACCESS,claws,FULLSILVA,dodge2",
+                            "$C16ACCESS,claws,djump,$HORIZONTAL2",
+                            "$C16ACCESS,claws,$HORIZONTAL2,verboten",
+                            "$C16ACCESS,claws,dodge2,dash,verboten,silva",
+                            "$C16ACCESS,hook,claws,$HORIZONTAL",
+                            "$C16ACCESS,claws,djump,hook",
+							"$C16ACCESS,claws,hook,verboten",
+							"$C16ACCESS,silva,dodge2,djump,hook",
+                            "$C18ACCESSE18,aquatic",
+                            "$C18ACCESSH18,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x800",
+                        "access_rules": 
+                        [
+                            "$C16ACCESS,claws,FULLSILVA,dodge2",
+                            "$C16ACCESS,claws,djump,$HORIZONTAL2",
+                            "$C16ACCESS,claws,$HORIZONTAL2,verboten",
+                            "$C16ACCESS,claws,dodge2,dash,verboten,silva",
+                            "$C16ACCESS,hook,claws,$HORIZONTAL",
+                            "$C16ACCESS,claws,djump,hook",
+							"$C16ACCESS,claws,hook,verboten",
+							"$C16ACCESS,silva,dodge2,djump,hook",
+                            "$C18ACCESSE18,aquatic,silva,djump,claws",
+                            "$C18ACCESSE18,aquatic,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSE18,aquatic,claws,$HORIZONTAL2,verboten",
+                            "$C18ACCESSE18,aquatic,claws,dodge2,dash,verboten,silva",
+                            "$C18ACCESSE18,aquatic,hook,claws,$HORIZONTAL",
+                            "$C18ACCESSE18,aquatic,claws,djump,hook",
+							"$C18ACCESSE18,aquatic,claws,hook,verboten",
+							"$C18ACCESSE18,aquatic,silva,dodge2,djump,hook",
+                            "$C18ACCESSH18,aquatic,silva,djump,claws",
+                            "$C18ACCESSH18,aquatic,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,aquatic,claws,$HORIZONTAL2,verboten",
+                            "$C18ACCESSH18,aquatic,claws,dodge2,dash,verboten,silva",
+                            "$C18ACCESSH18,aquatic,hook,claws,$HORIZONTAL",
+                            "$C18ACCESSH18,aquatic,claws,djump,hook",
+							"$C18ACCESSH18,aquatic,claws,hook,verboten",
+							"$C18ACCESSH18,aquatic,silva,dodge2,djump,hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C17",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10230,
+                        "y": 1940
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$C17ACCESSC16,hook",
+                            "$C17ACCESSC18,hook",
+                            "$C17ACCESSH18"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fallen Sentinel Fight",
+                        "access_rules": 
+                        [
+                            "$C17ACCESSC16,hook",
+                            "$C17ACCESSC16,$LEDGE",
+                            "$C17ACCESSC18,hook",
+                            "$C17ACCESSC18,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C19",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7870,
+                        "y": 1890
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$C19ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C20",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8380,
+                        "y": 1815
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,dash,lance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Castle Town Maiden",
+                        "access_rules":
+                        [
+                            "$C20ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x100",
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,dash,lance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Priestess' Doll",
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,$LEDGE",
+                            "$C20ACCESS,plume",
+                            "$C20ACCESS,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Decayed Crown",
+                        "access_rules": 
+                        [
+                            "$C20ACCESS,$LEDGE2,claws",
+                            "$RuinedCastleACCESS"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "C21",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7805,
+                        "y": 1700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "access_rules":
+                        [
+                            "$C19ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 4540,
+                        "y": 3005
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$D1ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5155,
+                        "y": 2955
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Rusted Blue Ornament",
+                        "access_rules": 
+                        [
+                            "$D2ACCESS,verboten",
+                            "$D2ACCESS,sinner,$LEDGE",
+                            "$D2ACCESS,claws,$HORIZONTAL",
+                            "$D2ACCESS,djump",
+                            "$D2ACCESS,dodge2,silva",
+                            "$D2ACCESS,anklet,plume,silva,$AIRSTALL",
+                            "$D2ACCESS,anklet,dodge2,dash,$LEDGE"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$D2ACCESS,hammer,verboten",
+                            "$D2ACCESS,hammer,djump",
+                            "$D2ACCESS,hammer,sinner",
+                            "$D2ACCESS,hammer,dodge2,silva",
+                            "$D2ACCESS,hammer,anklet,plume,silva,$AIRSTALL",
+                            "$D2ACCESS,hammer,dodge2,claws",
+                            "$D2ACCESS,hammer,dodge2,dash,anklet",
+                            "$D2ACCESS,hammer,claws,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$D2ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5070,
+                        "y": 3130
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$D3ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$D3ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6130,
+                        "y": 3310
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$D5ACCESS,djump",
+                            "$D5ACCESS,hook",
+                            "$D5ACCESS,$HORIZONTAL,faeden",
+							"$D5ACCESS,$HORIZONTAL,gerrod",
+                            "$D5ACCESS,silva",
+                            "$D5ACCESS,ulv,fretia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$D5ACCESS,$D13ACCESS5,claw,$LEDGE",
+                            "$D5ACCESS,$D13ACCESS5,hook"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$D5ACCESS",
+                            "$D5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6225,
+                        "y": 3630
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$D6ACCESS,$LEDGE",
+                            "$D6ACCESS,$HORIZONTAL",
+							"$D6ACCESS,dash"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Manisa's Ring",
+                        "access_rules": 
+                        [
+                            "$D6ACCESS,hook",
+                            "$D6ACCESS,silva,verboten",
+                            "$D6ACCESS,$HORIZONTAL",
+                            "$D6ACCESS,silva,ulv",
+                            "$D6ACCESS,djump",
+                            "$D6ACCESS,plume,verboten",
+                            "$D6ACCESS,anklet,verboten",
+                            "$D6ACCESS,silva,$AIRSTALL,plume,anklet"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cracked Familar Stone",
+                        "access_rules": 
+                        [
+                            "$D6ACCESS,hook,$HORIZONTAL",
+                            "$D6ACCESS,djump,$HORIZONTAL",
+                            "$D6ACCESS,hook,$LEDGE",
+                            "$D6ACCESS,dodge2,dash,claw",
+                            "$D6ACCESS,FULLSILVA",
+                            "$D6ACCESS,djump,verboten,anklet",
+                            "$D6ACCESS,verboten,plume",
+                            "$D6ACCESS,djump,silva,ulv",
+                            "$D6ACCESS,djump,silva,anklet,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D8",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6888,
+                        "y": 4080
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$D8ACCESS7",
+                            "$D8ACCESS11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Floral SOrceress Fight",
+                        "access_rules": 
+                        [
+                            "$D8ACCESS7",
+                            "$D8ACCESS11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$D8ACCESS7",
+                            "$D8ACCESS11"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ruined Witch's Book",
+                        "access_rules": 
+                        [
+                            "$D8ACCESS7,$HORIZONTAL,aquatic",
+                            "$D8ACCESS7,djump,aquatic",
+                            "$D8ACCESS7,verboten,silva,aquatic",
+                            "$D8ACCESS7,silva,ulv,aquatic",
+                            "$D8ACCESS7,verboten,ulv,aquatic",
+                            "$D8ACCESS11,$HORIZONTAL,aquatic",
+                            "$D8ACCESS11,djump,aquatic",
+                            "$D8ACCESS11,verboten,silva,aquatic",
+                            "$D8ACCESS11,silva,ulv,aquatic",
+                            "$D8ACCESS11,verboten,ulv,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$D8ACCESS7,aquatic",
+                            "$D8ACCESS11,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$D8ACCESS7,,hook,aquatic",
+                            "$D8ACCESS7,$LEDGE,$HORIZONTAL2,aquatic",
+                            "$D8ACCESS11,hook,aquatic",
+                            "$D8ACCESS11,claw,aquatic,$HORIZONTAL",
+                            "$D8ACCESS11,$LEDGE,$HORIZONTAL2,aquatic",
+                            "$D8ACCESS7,$FULLSILVA,ulv,$HORIZONTAL,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7295,
+                        "y": 3630
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$D9ACCESS,$LEDGE",
+                            "$D9ACCESS,ulv,fretia",
+                            "$D9ACCESS,ulv,$HORIZONTAL",
+                            "$D9ACCESS,gerrod,$HORIZONTAL",
+                            "$D9ACCESS,ult,umbral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$D9ACCESS,$LEDGE",
+                            "$D9ACCESS,ulv,fretia"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7300,
+                        "y": 3910
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$D11ACCESS8",
+                            "$D11ACCESS10"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7267,
+                        "y": 4350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dark witch Eleine Fight",
+                        "access_rules": 
+                        [
+                            "$D12ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D13",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7590,
+                        "y": 3400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": [
+                            "$D13ACCESS5,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules":
+                        [
+                            "$D13ACCESS5,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D14",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6570,
+                        "y": 4040
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "access_rules": 
+                        [
+                            "$D14ACCESS,aquatic,verboten",
+                            "$D14ACCESS,aquatic,djump",
+                            "$D14ACCESS,aquatic,claw,silva",
+                            "$D14ACCESS,aquatic,silva,plume"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$D14ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D15",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6315,
+                        "y": 4450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$D15ACCESS,hook",
+                            "$D15ACCESS,claw"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$D15ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D17",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7570,
+                        "y": 3905
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "access_rules": 
+                        [
+                            "$D17ACCESS,claws",
+                            "$D17ACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spellbound Anklet",
+                        "access_rules": 
+                        [
+                            "$D17ACCESS,claws",
+                            "$D17ACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5882,
+                        "y": 2980
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fungal Sorcerer Fight",
+                        "access_rules":
+                        [
+                            "$D18ACCESS"
+                            
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$D18ACCESS,hammer",
+                            "$D18ACCESS,$LEDGE2",
+                            "$D18ACCESS,hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D19",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7625,
+                        "y": 3620
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x800",
+                        "access_rules": 
+                        [
+                            "$D19ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "access_rules": 
+                        [
+                            "$D19ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6710,
+                        "y": 2558
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,hook",
+                            "$CatacombsACCESS,silva,djump",
+                            "$CatacombsACCESS,$HORIZONTAL2,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6710,
+                        "y": 3060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Elder Crypt Keeper Fight",
+                        "access_rules": 
+                        [
+                            "$E2ACCESS"
+                        ],
+                        "item_count":  1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$E2ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7323,
+                        "y": 2815
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kilteus' Ring",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7335,
+                        "y": 2558
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,hook",
+                            "$CatacombsACCESS,$HORIZONTAL",
+                            "$CatacombsACCESS,verboten",
+                            "$CatacombsACCESS,djump",
+                            "$CatacombsACCESS,silva,ulv",
+                            "$CatacombsACCESS,ulv,fretia",
+                            "$CatacombsACCESS,plume,silva,$AIRSTALL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7395,
+                        "y": 2373
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E7",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7877,
+                        "y": 2373
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,hook",
+                            "$CatacombsACCESS,claws,silva,$HORIZONTAL",
+                            "$CatacombsACCESS,claws,verboten,$HORIZONTAL",
+                            "$CatacombsACCESS,claws,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E8",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8335,
+                        "y": 2370
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,$LEDGE",
+                            "$CatacombsACCESS,$HORIZONTAL",
+                            "$CatacombsACCESS,ulv",
+                            "$CatacombsACCESS,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,aquatic,hammer,claws",
+                            "$CatacombsACCESS,aquatic,hammer,$LEDGE",
+                            "$CatacombsACCESS,aquatic,hammer,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8850,
+                        "y": 2320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules":
+                        [
+                            "$E9ACCESS8,$LEDGE,hook",
+                            "$E9ACCESS8,$LEDGE,HORIZONTAL2",
+                            "$E9ACCESS8,silva,djump",
+                            "$E9ACCESS8,djump,verboten",
+                            "$E9ACCESS8,$LEDGE,claws",
+                            "$E10ACCESS,hook",
+                            "$E10ACCESS,claws",
+                            "$E10ACCESS,silva,djump",
+                            "$E10ACCESS,djump,verboten",
+                            "$E10ACCESS,$HORIZONTAL2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8850,
+                        "y": 2558
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS,hook",
+                            "$E10ACCESS,silva,djump,$HORIZONTAL2",
+                            "$E10ACCESS,claws,$LEDGE",
+                            "$E10ACCESS,claws,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS,claws,dodge2",
+                            "$E10ACCESS,djump,$HORIZONTAL",
+                            "$E10ACCESS,silva,djump",
+                            "$E10ACCESS,verboten,djump",
+                            "$E10ACCESS,sinner",
+                            "$E10ACCESS,dodge2,dash",
+                            "$E10ACCESS,$LEDGE,claws",
+                            "$E10ACCESS,claws,ulv,fretia,plume",
+                            "$E10ACCESS,claws,ulv,fretia,spellbound"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8750,
+                        "y": 3060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS,hook",
+                            "$E10ACCESS,$HORIZONTAL",
+                            "$E10ACCESS,djump",
+                            "$E10ACCESS,verboten,ulv",
+                            "$E10ACCESS,silva,verboten",
+                            "$E10ACCESS,silva,ulv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7840,
+                        "y": 3060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E13",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7890,
+                        "y": 2800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules":
+                        [
+                            "$E10ACCESS,claws",
+                            "$E10ACCESS,verboten",
+                            "$E10ACCESS,djump",
+                            "$E10ACCESS,silva,ulv",
+                            "$E10ACCESS,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E14",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7890,
+                        "y": 2558
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$E14ACCESS,hook",
+                            "$E14ACCESS,dodge2,silva",
+                            "$E14ACCESS,dodge2,ulv",
+                            "$E14ACCESS,sinner",
+                            "$E14ACCESS,djump,dodge2",
+                            "$E14ACCESS,djump,ulv,fretia",
+                            "$E14ACCESS,ulv,fretia,dash",
+                            "$E14ACCESS,$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$E14ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E15",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8350,
+                        "y": 2558
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Guardian Silva Fight",
+                        "access_rules": 
+                        [
+                            "$E15ACCESS"
+                        ],
+                        "item_count": 3
+                    } 
+                ]
+            },
+            {
+                "name": "E16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9325,
+                        "y": 2500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$E16ACCESS,hook",
+                            "$E16ACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$E16ACCESS,hook",
+                            "$E16ACCESS,djump",
+                            "$E16ACCESS,silva,claws",
+                            "$E16ACCESS,silva,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10100,
+                        "y": 2185
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E19",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9185,
+                        "y": 2800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS,$LEDGE",
+                            "$E10ACCESS,hook",
+                            "$E20ACCESS,$LEDGE",
+                            "$E20ACCESS,hook"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fallen Archer Fight",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E20ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E20ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E20",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8405,
+                        "y": 2800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess Statue",
+                        "access_rules": 
+                        [
+                            "$E20ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E21",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9215,
+                        "y": 3050
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Holy Spring Water",
+                        "access_rules": 
+                        [
+                            "$E21ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E22",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7775,
+                        "y": 3205
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Soul x2",
+                        "access_rules": 
+                        [
+                            "$E22ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E23",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7010,
+                        "y": 2360
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS,unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8790,
+                        "y": 3650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,hook",
+                            "$StockadeACCESS,djump,silva"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9165,
+                        "y": 3380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,dash,lance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fall From Above (Fragment and Stagnant x30)",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE,claws,hook",
+                            "$StockadeACCESS,$FULLSILVA,hook",
+                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "F4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9290,
+                        "y": 3700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x800",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,dash,lance"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10117,
+                        "y": 3792
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2 Amulet Fragments (+5 HP x2)",
+                        "access_rules": 
+                        [
+                            "$F6ACCESS,claws",
+                            "$F6ACCESS,silva,ulv,djump,dodge2"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$F6ACCESS,$LEDGE",
+                            "$F6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F8",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10655,
+                        "y": 3720
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hammer",
+                            "$F6ACCESS,hook,hammer",
+                            "$F6ACCESS,$LEDGE2,hammer",
+                            "$F6ACCESS,$LEDGE,ulv,hammer",
+                            "$F6ACCESS,$HORIZONTAL,$LEDGE,hammer",
+                            "$F6ACCESS,plume,$LEDGE,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F8ACCESS,silva,djump,$HORIZONTAL",
+                            "$F8ACCESS,silva,ulv,djump",
+                            "$F8ACCESS,silva,ulv,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10690,
+                        "y": 3472
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,$LEDGE2",
+                            "$F7ACCESS,verboten,claws",
+                            "$F7ACCESS,djump,claws",
+                            "$F7ACCESS,silva,plume",
+                            "$F9ACCESS8,hook",
+                            "$F9ACCESS8,$LEDGE2",
+                            "$F9ACCESS8,verboten,claws",
+                            "F9ACCESS8,djump,claws",
+                            "F9ACCESS8,silva,plume"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS",
+                            "F9ACCESS8,djump,claws",
+                            "$F9ACCESS8,hook",
+                            "$F9ACCESS8,verboten,silva,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,$LEDGE,dash,lance",
+                            "$F7ACCESS,$HORIZONTAL,dash,lance",
+                            "$F7ACCESS,claws,dash,lance",
+                            "$F7ACCESS,hook,dash,lance",
+                            "$F9ACCESS8,djump,claws,dash,lance",
+                            "$F9ACCESS8,hook,dash,lance",
+                            "$F9ACCESS8,verboten,silva,claws,dash,lance"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11190,
+                        "y": 3620
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,$LEDGE",
+                            "$F7ACCESS,$HORIZONTAL",
+                            "$F10ACCESS8,hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11920,
+                        "y": 3710
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hoenir, Keeper Of The Abyss Fight",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS",
+                            "$F10ACCESS8"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "F13",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 12348,
+                        "y": 3615
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$F13ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "access_rules": 
+                        [
+                            "$F13ACCESS,hook",
+                            "$F13ACCESS,silva,djump,$HORIZONTAL,claws",
+                            "$F13ACCESS,silva,djump,ulv,claws",
+                            "$F13ACCESS,$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F14",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9665,
+                        "y": 3435
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$F14ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$F14ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$F14ACCESS,hook,$LEDGE"
+
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F15",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11675,
+                        "y": 3510
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dark Executioner Fight",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,$LEDGE",
+                            "$F10ACCESS8,hook"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11225,
+                        "y": 3905
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Soul",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hammer",
+                            "$F10ACCESS8,hook,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9910,
+                        "y": 3210
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F19",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10270,
+                        "y": 3570
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Executioner's Gloves",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F20",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9280,
+                        "y": 3240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Test Subject Fight",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F21",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9100,
+                        "y": 3240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE,claws,hook",
+                            "$StockadeACCESS,$FULLSILVA,hook",
+                            "$StockadeACCESS,silva,djump,dodge2,hook,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F22",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8930,
+                        "y": 3250
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F24",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9075,
+                        "y": 3498
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F25",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11130,
+                        "y": 3280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Aura's Ring",
+                        "access_rules": 
+                        [
+                            "$F25ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F27",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10250,
+                        "y": 3100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook,unlock"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11080,
+                        "y": 2060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$TwinSpiresACCESS,dash,lance,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11030,
+                        "y": 1650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$TwinSpiresACCESS,$LEDGE2,claws",
+                            "$G2ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$G2ACCESS,hook",
+                            "$G2ACCESS,claws",
+                            "$G2ACCESS,silva,ulv,djump,dodge2",
+                            "$G2ACCESS,$FULLSILVA"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$G2ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11430,
+                        "y": 1650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$G3ACCESS,$LEDGE2,claws",
+                            "$G3ACCESS,$LEDGE,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11430,
+                        "y": 2110
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$G3ACCESS,claws",
+                            "$G3ACCESS,$FULLSILVA,dodge2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11820,
+                        "y": 2020
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Snowdrop Bracelet",
+                        "access_rules": 
+                        [
+                            "$G5ACCESS,lance,dash"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$G5ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$G6ACCESS,claws",
+                            "$G6ACCESS,$FULLSILVA,dodge2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11820,
+                        "y": 1650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$G6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G8",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11860,
+                        "y": 1360
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ricorus' Ring",
+                        "access_rules": 
+                        [
+                            "$G8ACCESS,aquatic,hammer",
+                            "$G8ACCESS,silva",
+                            "$G8ACCESS,julius",
+                            "$G8ACCESS,gerrod",
+                            "$G8ACCESS,ulv"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$G8ACCESS,silva,aquatic,hook",
+                            "$G8ACCESS,julius,aquatic,hook",
+                            "$G8ACCESS,gerrod,aquatic,hook",
+                            "$G8ACCESS,ulv,aquatic,hook",
+                            "$G8ACCESS,silva,djump",
+                            "$G8ACCESS,verboten,$HORIZONTAL2,claws",
+                            "$G8ACCESS,verboten,djump,sinner",
+                            "$G8ACCESS,silva,dodge2,ulv,verboten",
+                            "$G11ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11465,
+                        "y": 1300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$G9ACCESS,claws,$HORIZONTAL",
+                            "$G9ACCESS,claws,silva,djump",
+                            "$G12ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Forsaken Fellwyrm",
+                        "access_rules": 
+                        [
+                            "$G9ACCESS,dash,lance,claws,$HORIZONTAL",
+                            "$G9ACCESS,dash,lance,claws,silva,djump",
+                            "$G12ACCESS,dash,lance,silva,djump",
+                            "$G12ACCESS,dash,lance,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11800,
+                        "y": 1010
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$G11ACCESS,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$G11ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11420,
+                        "y": 1060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$G12ACCESS,dash,lance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$G12ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hanging Nest (Tablet Fragment and FUrious x800)",
+                        "access_rules": 
+                        [
+                            "$G12ACCESS,hammer,hook,unlock"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "G13",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10970,
+                        "y": 1150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$G13ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$G13ACCESS,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Immortal Crest",
+                        "access_rules": 
+                        [
+                            "$G13ACCESS,djump,hook",
+                            "$G13ACCESS,$HORIZONTAL,hook",
+                            "$G13ACCESS,claws,hook",
+                            "G13ACCESS,$LEDGE2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G14",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11000,
+                        "y": 735
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$G14ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G15",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11375,
+                        "y": 655
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$G15ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "access_rules": 
+                        [
+                            "$G15ACCESS,claws,$LEDGE,$HORIZONTAL",
+                            "$G15ACCESS,claws,silva,djump",
+                            "$G15ACCESS,claws,silva,dodge2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11790,
+                        "y": 655
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Dragon Claw",
+                        "access_rules": 
+                        [
+                            "$G14ACCESS,$LEDGE2",
+                            "$G14ACCESS,$HORIZONTAL",
+                            "$G14ACCESS,claws",
+                            "$G11ACCESS,claws,djump",
+                            "G11ACCESS,claws,verboten"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x10",
+                        "access_rules": 
+                        [
+                            "$G16ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$G14ACCESS,claws",
+                            "$G14ACCESS,$FULLSILVA",
+                            "$G14ACCESS,silva,djump,dodge2",
+                            "$G11ACCESS,claws,djump",
+                            "$G11ACCESS,claws,verboten"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11790,
+                        "y": 280
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ulv, The Mad Knight",
+                        "access_rules": 
+                        [
+                            "$G18ACCESS"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "access_rules": 
+                        [
+                            "$G18ACCESS,claws",
+                            "$G18ACCESS,$FULLSILVA",
+                            "$G18ACCESS,silva,djump,dodge2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G19",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 12348,
+                        "y": 2535
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$G19ACCESS,claws,$LEDGE"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nymphilia's Ring",
+                        "access_rules": 
+                        [
+                            "$G19ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9605,
+                        "y": 1605
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Royal Aegis Crest",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9605,
+                        "y": 1300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$AIRSTALL",
+                            "$RuinedCastleACCESS,$LEDGE",
+                            "$RuinedCastleACCESS,$HORIZONTAL"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules":
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,claws,silva,djump,dodge2",
+                            "$RuinedCastleACCESS,claws,$FULLSILVA",
+                            "$RuinedCastleACCESS,claws,silva,dodge2,verboten"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8760,
+                        "y": 1515
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Blightwreathed Blade",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws",
+                            "$RuinedCastleACCESS,silva,ulv,djump,dodge2",
+                            "$RuinedCastleACCESS,$FULLSILVA,dodge2",
+                            "$RuinedCastleACCESS,silva,dodge2,djump,plume",
+                            "$RuinedCastleACCESS,silva,djump,$HORIZONTAL2"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8785,
+                        "y": 1230
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,djump,$HORIZONTAL",
+                            "$RuinedCastleACCESS,$LEDGE2,dodge2",
+                            "$RuinedCastleACCESS,$HORIZONTAL2",
+                            "$RuinedCastleACCESS,$FULLSILVA",
+                            "$RuinedCastleACCESS,sinner,djump",
+                            "$RuinedCastleACCESS,silva,djump,ulv"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H7",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8470,
+                        "y": 1230
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9240,
+                        "y": 1010
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,dodge2,silva",
+                            "$RuinedCastleACCESS,claws,dodge2,djump,hook",
+                            "$RuinedCastleACCESS,claws,$FULLSILVA"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8785,
+                        "y": 1010
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8785,
+                        "y": 830
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance",
+                            "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x100",
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance,hook",
+                            "$H16ACCESS,dash,lance,hook"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eldred's Ring",
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance",
+                            "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H13",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9330,
+                        "y": 830
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knight Captain Julius Fight",
+                        "access_rules":
+                        [
+                            "$H11ACCESS10",
+                            "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },{
+                "name": "H14",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9637,
+                        "y": 935
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,lance,dash,claws",
+                            "$RuinedCastleACCESS,dash,lance,silva,djump",
+                            "$RuinedCastleACCESS,dash,lance,silva,dodge2",
+                            "$RuinedCastleACCESS,dash,lance,djump,dodge2",
+                            "$RuinedCastleACCESS,dash,lance,sinner",
+                            "$RuinedCastleACCESS,dash,lance,djump,verboten"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$FULLSILVA,dodge2,claws"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x800",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,$FULLSILVA,dodge2",
+                            "$RuinedCastleACCESS,claws,$LEDGE2,$HORIZONTAL2",
+                            "$RuinedCastleACCESS,claws,$LEDGE2,dodge2,dash"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H15",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9535,
+                        "y": 655
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9050,
+                        "y": 640
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "One-Eyed Royal Aegis Fight",
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x10",
+                        "access_rules": 
+                        [
+                           "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 9
+                    },
+                    {
+                        "name": "H16",
+                        "access_rules": 
+                        [
+                            "$H16ACCESS,claws",
+                            "$H16ACCESS,$FULLSILVA",
+                            "$H16ACCESS,silva,djump,dodge2"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H17",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9220,
+                        "y": 1425
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,claws,$HORIZONTAL",
+                            "$RuinedCastleACCESS,claws,$LEDGE",
+                            "$RuinedCastleACCESS,hook"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9010,
+                        "y": 1815
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,hook",
+                            "$RuinedCastleACCESS,$FULLSILVA",
+                            "$RuinedCastleACCESS,silva,djump,dodge2"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H20",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9890,
+                        "y": 1340
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,unlock"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,unlock"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8150,
+                        "y": 4800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath",
+                            "$VerbotenDomainACCESS,mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8540,
+                        "y": 4900
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath",
+                            "$VerbotenDomainACCESS,mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Verboten Champion Fight",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,unlock",
+                            "$VerbotenDomainACCESS,mask,unlock"
+                        ],
+                        "item_count": 1
+                    }
+
+                ]
+            },
+            {
+                "name": "J3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8560,
+                        "y": 5320
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,aquatic",
+                            "$VerbotenDomainACCESS,mask,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x100",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,aquatic",
+                            "$VerbotenDomainACCESS,mask,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8980,
+                        "y": 5215
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Heretic's Mask",
+                        "access_rules": 
+                        [
+                            "$J4ACCESSF26"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$J4ACCESSF26"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7770,
+                        "y": 5015
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Weathered Necklace",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,$LEDGE",
+                            "$VerbotenDomainACCESS,mask,$LEDGE"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,$LEDGE,$HORIZONTAL",
+                            "$VerbotenDomainACCESS,mask,$LEDGE,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J6",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7725,
+                        "y": 5385
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath",
+                            "$VerbotenDomainACCESS,mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$J6ACCESS,$domainMath,hammer",
+                            "$J6ACCESS,mask,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furious Blight x30",
+                        "access_rules": 
+                        [
+                            "$VerbotenDomainACCESS,$domainMath,hook,hammer",
+                            "$VerbotenDomainACCESS,$domainMath,claws,hammer",
+                            "$VerbotenDomainACCESS,mask,hook,hammer",
+                            "$VerbotenDomainACCESS,mask,claws,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J7",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7355,
+                        "y": 5375
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$J7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J8",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7780,
+                        "y": 5750
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$J8ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "access_rules": 
+                        [
+                            "$J8ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J9",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7790,
+                        "y": 6110
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x100",
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Gem (+20 HP)",
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$J9ACCESS,aquatic,mask"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8535,
+                        "y": 5765
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Blighted Appendage",
+                        "access_rules": 
+                        [
+                            "$J10ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$J10ACCESS,djump,$HORIZONTAL",
+                            "$J10ACCESS,silva,$HORIZONTAL",
+                            "$J10ACCESS,claws,verboten,$HORIZONTAL",
+                            "$J10ACCESS,claws,verboten,djump",
+                            "$J10ACCESS,silva,djump,claws",
+                            "$J10ACCESS,silva,djump,plume"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8535,
+                        "y": 6175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x30",
+                        "access_rules": 
+                        [
+                            "$J11ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Incompetent Sinner",
+                        "access_rules": 
+                        [
+                            "$J11ACCESS,mask,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8930,
+                        "y": 6175
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Priestess' Wish (Prayer Upgrade)",
+                        "access_rules": 
+                        [
+                            "$J11ACCESS,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J13",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8180,
+                        "y": 5515
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$J13ACCESSE,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Calivia's Ring",
+                        "access_rules": 
+                        [
+                            "$J13ACCESSW,$LEDGE,claws"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "J16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7450,
+                        "y": 6455
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x800",
+                        "access_rules": 
+                        [
+                            "$J14ACCESS,$LEDGE,claws,$HORIZONTAL2",
+                            "$J14ACCESS,$LEDGE2,dodge2,claws"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Miriel, The Beloved Prize",
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "K1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7450,
+                        "y": 6760
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Furious Blight x100",
+                        "access_rules": 
+                        [
+                            "$K1ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "K2",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7495,
+                        "y": 7097
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "White Priestess' Earrings",
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP)",
+                        "access_rules": 
+                        [
+                            "$K2ACCESS,claws,$LEDGE,$HORIZONTAL,",
+                            "$K2ACCESS,$HORIZONTAL2",
+                            "$K2ACCESS,silva,djump,dodge2,ulv",
+                            "$K2ACCESS,claws,$LEDGE2"
+
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ending B",
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ending C",
+                        "access_rules": 
+                        [
+                            "$K2ACCESS,luminantcurio"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "K4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8950,
+                        "y": 6655
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stagnant Blight x100",
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "K5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8955,
+                        "y": 7097
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ancient Soul x2",
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stone Tablet Fragment",
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1 
+                    }
+                ]
+            }
+        ]
+    }
+]
