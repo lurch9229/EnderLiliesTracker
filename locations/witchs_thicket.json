@@ -154,7 +154,7 @@
                         [
                             "$D5ACCESS,djump",
                             "$D5ACCESS,hook",
-                            "$D5ACCESS,$HORIZONTAL,faeden",
+                            "$D5ACCESS,$HORIZONTAL,julius",
 							"$D5ACCESS,$HORIZONTAL,gerrod",
                             "$D5ACCESS,silva",
                             "$D5ACCESS,ulv,fretia"
@@ -272,11 +272,9 @@
                             "$D6ACCESS,djump,$HORIZONTAL",
                             "$D6ACCESS,hook,$LEDGE",
                             "$D6ACCESS,dodge2,dash,claw",
-                            "$D6ACCESS,FULLSILVA",
                             "$D6ACCESS,djump,verboten,anklet",
                             "$D6ACCESS,verboten,plume",
-                            "$D6ACCESS,djump,silva,ulv",
-                            "$D6ACCESS,djump,silva,anklet,plume"
+                            "$D6ACCESS,djump,silva"
                         ],
                         "item_count": 1
                     }

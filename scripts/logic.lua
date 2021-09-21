@@ -333,8 +333,7 @@ function C15ACCESS()
   or (has ("$C5ACCESS") and has ("hook"))
   or (has ("$C5ACCESS") and has ("djump") and has ("$HORIZONTAL"))
   or (has ("$C5ACCESS") and has ("verboten") and has ("silva") and has ("ulv") and has ("fretia"))
-  or (has ("$C5ACCESS") and has ("djump") and has ("dodge2") and has ("silva"))
-  or (has ("$C5ACCESS") and has ("djump") and has ("silva") and has ("ulv"))
+  or (has ("$C5ACCESS") and has ("djump") and has ("silva")
   or (has ("$C5ACCESS") and has ("djump") and has ("verboten") and ("silva"))
   or (has ("$C5ACCESS") and has ("sinner") and has ("silva"))
   or (has ("$C5ACCESS") and has ("plume") and has ("dodge2") and has ("dash"))
@@ -551,8 +550,9 @@ function D10ACCESS()
 end
 
 function D11ACCESS10() -- Witches Thicket from D10
-  if (has ("$D10ACCESS") and has ("djump"))
-  or (has ("$D10ACCESS") and has ("$LEDGE"))
+  if (has ("$D10ACCESS") and has ("$LEDGE"))
+  or (has ("$D10ACCESS") and has ("claws") and has ("faden"))
+  or (has ("$D10ACCESS") and has ("claws") and has ("sentinel"))
   then
     return 1
   else
@@ -584,7 +584,7 @@ function D13ACCESS5()
   or (has ("$D5ACCESS") and has ("sinner"))
   or (has ("$D5ACCESS") and has ("hook"))
   or (has ("$D5ACCESS") and has ("djump") and has ("verboten"))
-  or (has ("$D5ACCESS") and has ("djump") and has ("silva") and has ("ulv"))
+  or (has ("$D5ACCESS") and has ("djump") and has ("silva"))
   or (has ("$D5ACCESS") and has ("dodge2") and has ("ulv") and has ("fretia"))
   or (has ("$D5ACCESS") and has ("dodge2") and has ("dash") and has ("plume"))
   or (has ("$D5ACCESS") and has ("dodge2") and has ("dash") and has ("anklet"))
