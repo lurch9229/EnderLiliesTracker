@@ -301,8 +301,14 @@ function C10ACCESS9()
   end
 end
 
-function C11ACCESS()
-  if has ("$C10ACCESS9") and has ("$C10ACCESS4") and has ("aquatic")
+function C11ACCESS() -- can climb up from Catacombs then respite warp to get to the top
+  if (has ("$C10ACCESS9") and has ("$C10ACCESS4") and has ("aquatic"))
+  or (has ("$C18ACCESSH18") and has ("claws") and has ("$FULLSILVA") and has ("dodge2"))
+  or (has ("$C18ACCESSH18") and has ("claws") and has ("silva") and has ("djump") and has ("ulv") and has ("dodge2"))
+  or (has ("$C18ACCESSH18") and has ("claws") and has ("$HORIZONTAL2") and has ("djump"))
+  or (has ("$C18ACCESSH18") and has ("claws") and has ("$FULLSILVA") and has ("dodge2"))
+  or (has ("$C18ACCESSH18") and has ("claws") and has ("silva") and has ("djump") and has ("ulv") and has ("dodge2"))
+  or (has ("$C18ACCESSH18") and has ("claws") and has ("$HORIZONTAL2") and has ("djump"))
   then 
     return 1
   else
@@ -333,9 +339,10 @@ function C15ACCESS()
   or (has ("$C5ACCESS") and has ("hook"))
   or (has ("$C5ACCESS") and has ("djump") and has ("$HORIZONTAL"))
   or (has ("$C5ACCESS") and has ("verboten") and has ("silva") and has ("ulv") and has ("fretia"))
-  or (has ("$C5ACCESS") and has ("djump") and has ("silva")
-  or (has ("$C5ACCESS") and has ("djump") and has ("verboten") and ("silva"))
+  or (has ("$C5ACCESS") and has ("djump") and has ("silva"))
   or (has ("$C5ACCESS") and has ("sinner") and has ("silva"))
+  or (has ("$C5ACCESS") and has ("sinner") and has ("verboten"))
+  or (has ("$C5ACCESS") and has ("sinner") and has ("djump"))
   or (has ("$C5ACCESS") and has ("plume") and has ("dodge2") and has ("dash"))
   then
     return 1
@@ -670,7 +677,7 @@ end
 function CatacombsACCESS()
   if has ("$C11ACCESS")
   or has ("$C18ACCESSC16")
-  or has ("C18ACCESSH18")
+  or has ("$C18ACCESSH18")
   then
     return 1
   else
@@ -711,6 +718,8 @@ function E10ACCESS()
   if (has ("$E9ACCESS8") and has ("$LEDGE"))
   or (has ("$E9ACCESS8") and has ("plume"))
   or has ("$E14ACCESS")
+  or has ("$C18ACCESSC16")
+  or has ("$C18ACCESSH18")
   then
     return 1
   else
@@ -1163,6 +1172,7 @@ function VerbotenDomainACCESS()
   if (has ("$D16ACCESS") and has ("dodge2"))
   or (has ("$D16ACCESS") and has ("dash"))
   or (has ("$F26ACCESS") and has ("hammer") and has ("hook") and has ("dash") and has ("lance"))
+  or (has ("$F26ACCESS") and has ("hammer") and has ("claws") and has ("djump") and has ("dash") and has ("lance"))
   then
     return 1
   else
@@ -1254,8 +1264,8 @@ function J13ACCESSW()
 end
 
 function J13ACCESSE()
-  if (has ("$VerbotenDomainACCESS") and has ("aquatic") and has ("$domainMath"))
-  or (has ("$VerbotenDomainACCESS") and has ("mask") and has ("aquatic"))
+  if (has ("$VerbotenDomainACCESS") and has ("aquatic") and has ("$domainMath") and has ("dash") and has ("lance"))
+  or (has ("$VerbotenDomainACCESS") and has ("mask") and has ("aquatic") and has ("dash") and has ("lance"))
   then
     return 1
   else
