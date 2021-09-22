@@ -530,15 +530,7 @@
                         "name": "C11",
                         "access_rules":
                         [
-                            "$C11ACCESS,verboten,silva,dodge2,dash,djump,claws",
-                            "$C11ACCESS,claws,silva,ulv,djump,dodge2",
-                            "$C11ACCESS,claws,$HORIZONTAL2,djump",
-                            "$C18ACCESSH18.claws.$FULLSILVA.dodge2",
-                            "$C18ACCESSH18,claws,silva,djump,ulvdodge2",
-                            "$C18ACCESSH18,claws,$HORIZONTAL2,djump",
-                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
-                            "$C18ACCESSH18,claws,silva,djump,ulv,dodge2",
-                            "$C18ACCESSH18,claws,$HORIZONTAL2,djump" 
+                            "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump"
                         ],
                         "item_count": 1
                     }
