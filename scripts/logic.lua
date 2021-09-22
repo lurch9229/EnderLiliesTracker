@@ -333,7 +333,7 @@ function C15ACCESS()
   or (has ("$C5ACCESS") and has ("hook"))
   or (has ("$C5ACCESS") and has ("djump") and has ("$HORIZONTAL"))
   or (has ("$C5ACCESS") and has ("verboten") and has ("silva") and has ("ulv") and has ("fretia"))
-  or (has ("$C5ACCESS") and has ("djump") and has ("silva")
+  or (has ("$C5ACCESS") and has ("djump") and has ("silva"))
   or (has ("$C5ACCESS") and has ("djump") and has ("verboten") and ("silva"))
   or (has ("$C5ACCESS") and has ("sinner") and has ("silva"))
   or (has ("$C5ACCESS") and has ("plume") and has ("dodge2") and has ("dash"))
@@ -437,7 +437,15 @@ end
 
 function C20ACCESS()
   if (has ("$C19ACCESS") and has ("claws"))
-  or has ("$H1ACCESS")
+  then
+    return 1
+  else
+    return 0
+  end
+end
+
+function C20ACCESSH1()
+  if has ("$H1ACCESS")
   then
     return 1
   else
@@ -670,7 +678,7 @@ end
 function CatacombsACCESS()
   if has ("$C11ACCESS")
   or has ("$C18ACCESSC16")
-  or has ("C18ACCESSH18")
+  or has ("$C18ACCESSH18")
   then
     return 1
   else

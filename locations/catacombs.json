@@ -215,7 +215,8 @@
                         [
                             "$CatacombsACCESS,aquatic,hammer,claws",
                             "$CatacombsACCESS,aquatic,hammer,$LEDGE",
-                            "$CatacombsACCESS,aquatic,hammer,plume"
+                            "$CatacombsACCESS,aquatic,hammer,plume",
+                            "$C18ACCESSH18,hammer"
                         ],
                         "item_count": 1
                     }

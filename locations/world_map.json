@@ -524,7 +524,13 @@
                         "name": "Fretia's Ring",
                         "access_rules": 
                         [
-                            "$C11ACCESS"
+                            "$C11ACCESS",
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
                         ],
                         "item_count": 1
                     },
@@ -533,8 +539,12 @@
                         "access_rules":
                         [
                             "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump,claws",
-                            "$C11ACCESS,claws,silva,ulv,djump,dodge2",
-                            "$C11ACCESS,claws,$HORIZONTAL2,djump"
+                            "$C18ACCESSC16,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSC16,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSC16,claws,silva,djump,dodge2,ulv",
+                            "$C18ACCESSH18,claws,$FULLSILVA,dodge2",
+                            "$C18ACCESSH18,claws,djump,$HORIZONTAL2",
+                            "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
                         ],
                         "item_count": 1
                     }
@@ -793,7 +803,8 @@
                             "$C17ACCESSC16,hook",
                             "$C17ACCESSC16,$LEDGE",
                             "$C17ACCESSC18,hook",
-                            "$C17ACCESSC18,$LEDGE"
+                            "$C17ACCESSC18,$LEDGE",
+                            "$C17ACCESSH18"
                         ],
                         "item_count": 1
                     }
@@ -833,7 +844,8 @@
                         "name": "Stagnant Blight x100",
                         "access_rules": 
                         [
-                            "$C20ACCESS,dash,lance"
+                            "$C20ACCESS,dash,lance",
+                            "C20ACCESSH1,dash,lance"
                         ],
                         "item_count": 1
                     },
@@ -841,7 +853,8 @@
                         "name": "Castle Town Maiden",
                         "access_rules":
                         [
-                            "$C20ACCESS"
+                            "$C20ACCESS",
+                            "C20ACCESSH1"
                         ],
                         "item_count": 1
                     },
@@ -849,7 +862,8 @@
                         "name": "Furious Blight x100",
                         "access_rules": 
                         [
-                            "$C20ACCESS,dash,lance"
+                            "$C20ACCESS,dash,lance",
+                            "C20ACCESSH1,dash,lance"
                         ],
                         "item_count": 1
                     },
@@ -859,7 +873,10 @@
                         [
                             "$C20ACCESS,$LEDGE",
                             "$C20ACCESS,plume",
-                            "$C20ACCESS,$HORIZONTAL"
+                            "$C20ACCESS,$HORIZONTAL",
+                            "$C20ACCESSH1,$LEDGE",
+                            "$C20ACCESSH1,plume",
+                            "$C20ACCESSH1,$HORIZONTAL"
                         ],
                         "item_count": 1
                     },
@@ -1588,7 +1605,8 @@
                         [
                             "$CatacombsACCESS,aquatic,hammer,claws",
                             "$CatacombsACCESS,aquatic,hammer,$LEDGE",
-                            "$CatacombsACCESS,aquatic,hammer,plume"
+                            "$CatacombsACCESS,aquatic,hammer,plume",
+                            "$C18ACCESSH18,hammer"
                         ],
                         "item_count": 1
                     }

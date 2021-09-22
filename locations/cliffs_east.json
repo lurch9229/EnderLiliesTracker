@@ -155,6 +155,7 @@
                         [
                             "$C17ACCESSH18",
                             "$C17ACCESSC16,$LEDGE",
+                            "$C17ACCESSC16,hook",
                             "$C17ACCESSC18,hook",
                             "$C17ACCESSC18,$LEDGE"
                         ],
@@ -196,7 +197,8 @@
                         "name": "C20",
                         "access_rules": 
                         [
-                            "$C20ACCESS,dash,lance"
+                            "$C20ACCESS,dash,lance",
+                            "$C20ACCESSH1,dash,lance"
                         ],
                         "item_count": 1
                     }
@@ -216,7 +218,8 @@
                         "name": "C20",
                         "access_rules":
                         [
-                            "$C20ACCESS"
+                            "$C20ACCESS",
+                            "C20ACCESSH1"
                         ],
                         "item_count": 1
                     }
@@ -236,7 +239,8 @@
                         "name": "C20",
                         "access_rules": 
                         [
-                            "$C20ACCESS,dash,lance"
+                            "$C20ACCESS,dash,lance",
+                            "$C20ACCESSH1,dash,lance"
                         ],
                         "item_count": 1
                     }
@@ -258,7 +262,10 @@
                         [
                             "$C20ACCESS,$LEDGE",
                             "$C20ACCESS,plume",
-                            "$C20ACCESS,$HORIZONTAL"
+                            "$C20ACCESS,$HORIZONTAL",
+                            "$C20ACCESSH1,$LEDGE",
+                            "$C20ACCESSH1,plume",
+                            "$C20ACCESSH1,$HORIZONTAL"
                         ],
                         "item_count": 1
                     }
