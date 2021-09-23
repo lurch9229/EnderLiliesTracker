@@ -17,6 +17,10 @@
                 "sections": [
                     {
                         "name": "G1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$TwinSpiresACCESS,dash,lance,$LEDGE"
@@ -37,6 +41,10 @@
                 "sections": [
                     {
                         "name": "G2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$TwinSpiresACCESS,$LEDGE2,claws",
@@ -47,7 +55,7 @@
                 ]
             },
             {
-                "name": "Chain Of Sorcery",
+                "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
                         "map": "TwinSpires",
@@ -58,6 +66,10 @@
                 "sections": [
                     {
                         "name": "G2",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$G2ACCESS,hook",
@@ -81,6 +93,10 @@
                 "sections": [
                     {
                         "name": "G2",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$G2ACCESS"
@@ -101,6 +117,10 @@
                 "sections": [
                     {
                         "name": "G3",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G3ACCESS,$LEDGE2,claws",
@@ -122,6 +142,10 @@
                 "sections": [
                     {
                         "name": "G4",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$G3ACCESS,claws",
@@ -143,6 +167,10 @@
                 "sections": [
                     {
                         "name": "G5",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$G5ACCESS,lance,dash"
@@ -163,6 +191,10 @@
                 "sections": [
                     {
                         "name": "G5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G5ACCESS"
@@ -183,6 +215,10 @@
                 "sections": [
                     {
                         "name": "G5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G6ACCESS,claws",
@@ -204,6 +240,10 @@
                 "sections": [
                     {
                         "name": "G6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G6ACCESS"
@@ -224,6 +264,10 @@
                 "sections": [
                     {
                         "name": "G8",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$G8ACCESS,aquatic,hammer",
@@ -249,6 +293,10 @@
                 "sections": [
                     {
                         "name": "G8",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G8ACCESS,silva,aquatic,hook",
@@ -276,6 +324,10 @@
                 "sections": [
                     {
                         "name": "G9",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$G9ACCESS,claws,$HORIZONTAL",
@@ -287,7 +339,7 @@
                 ]
             },
             {
-                "name": "Forsaken Fellwyrm",
+                "name": "Forsaken Fellwyrm Fight",
                 "map_locations": [
                     {
                         "map": "TwinSpires",
@@ -298,6 +350,10 @@
                 "sections": [
                     {
                         "name": "G9",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$G9ACCESS,dash,lance,claws,$HORIZONTAL",
@@ -321,6 +377,10 @@
                 "sections": [
                     {
                         "name": "G11",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$G11ACCESS,claws"
@@ -341,6 +401,10 @@
                 "sections": [
                     {
                         "name": "G11",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$G11ACCESS"
@@ -361,6 +425,10 @@
                 "sections": [
                     {
                         "name": "G12",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G12ACCESS,dash,lance"
@@ -381,6 +449,10 @@
                 "sections": [
                     {
                         "name": "G12",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G12ACCESS"
@@ -401,6 +473,10 @@
                 "sections": [
                     {
                         "name": "Stone Tablet Fragment",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
                         "access_rules": 
                         [
                             "$G12ACCESS,hammer,hook,unlock"
@@ -409,6 +485,10 @@
                     },
                     {
                         "name": "Stagnant Blight x800",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G12ACCESS,hammer,hook,unlock"
@@ -429,6 +509,10 @@
                 "sections": [
                     {
                         "name": "G13",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G13ACCESS"
@@ -449,6 +533,10 @@
                 "sections": [
                     {
                         "name": "G13",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G13ACCESS,claws"
@@ -469,6 +557,10 @@
                 "sections": [
                     {
                         "name": "G13",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$G13ACCESS,djump,hook",
@@ -492,6 +584,10 @@
                 "sections": [
                     {
                         "name": "G14",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$G14ACCESS"
@@ -512,6 +608,10 @@
                 "sections": [
                     {
                         "name": "G15",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$G15ACCESS"
@@ -532,6 +632,10 @@
                 "sections": [
                     {
                         "name": "G15",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$G15ACCESS,claws,$LEDGE,$HORIZONTAL",
@@ -554,6 +658,10 @@
                 "sections": [
                     {
                         "name": "G16",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$G14ACCESS,$LEDGE2",
@@ -578,6 +686,10 @@
                 "sections": [
                     {
                         "name": "G16",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G16ACCESS,hammer"
@@ -598,6 +710,10 @@
                 "sections": [
                     {
                         "name": "G16",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G14ACCESS,claws",
@@ -622,6 +738,10 @@
                 "sections": [
                     {
                         "name": "G18",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$G18ACCESS"
@@ -642,6 +762,10 @@
                 "sections": [
                     {
                         "name": "G18",
+                        "visibility_rules": 
+                        [
+                            "setting_wishes"
+                        ],
                         "access_rules": 
                         [
                             "$G18ACCESS,claws",
@@ -664,6 +788,10 @@
                 "sections": [
                     {
                         "name": "G19",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$G19ACCESS,claws,$LEDGE"
@@ -671,7 +799,8 @@
                         "item_count": 1
                     }
                 ]
-            },{
+            },
+            {
                 "name": "Nymphilia's Ring",
                 "map_locations": [
                     {
@@ -683,6 +812,10 @@
                 "sections": [
                     {
                         "name": "G19",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$G19ACCESS,aquatic"

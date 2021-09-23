@@ -17,6 +17,10 @@
                 "sections":[
                     {
                         "name": "D1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D1ACCESS"
@@ -37,6 +41,10 @@
                 "sections": [
                     {
                         "name": "D2",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$D2ACCESS,verboten",
@@ -63,6 +71,10 @@
                 "sections": [
                     {
                         "name": "D2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D2ACCESS,hammer,verboten",
@@ -90,6 +102,10 @@
                 "sections": [
                     {
                         "name": "D2 In Pot",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$D2ACCESS"
@@ -110,6 +126,10 @@
                 "sections": [
                     {
                         "name": "D3",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$D3ACCESS,aquatic"
@@ -130,6 +150,10 @@
                 "sections": [
                     {
                         "name": "D3",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$D3ACCESS,aquatic"
@@ -150,6 +174,10 @@
                 "sections": [
                     {
                         "name": "D5",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$D5ACCESS,djump",
@@ -175,6 +203,10 @@
                 "sections": [
                     {
                         "name": "D5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D5ACCESS,$D13ACCESS5,claw,$LEDGE",
@@ -196,6 +228,10 @@
                 "sections": [
                     {
                         "name": "D5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D5ACCESS",
@@ -217,6 +253,10 @@
                 "sections": [
                     {
                         "name": "D6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D6ACCESS,$LEDGE",
@@ -239,6 +279,10 @@
                 "sections": [
                     {
                         "name": "D6",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$D6ACCESS,hook",
@@ -266,6 +310,10 @@
                 "sections": [
                     {
                         "name": "D6",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$D6ACCESS,hook,$HORIZONTAL",
@@ -292,6 +340,10 @@
                 "sections": [
                     {
                         "name": "D8",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$D8ACCESS7",
@@ -313,6 +365,10 @@
                 "sections": [
                     {
                         "name": "D8",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$D8ACCESS7",
@@ -334,6 +390,10 @@
                 "sections": [
                     {
                         "name": "D8 In Pot",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$D8ACCESS7",
@@ -355,6 +415,10 @@
                 "sections": [
                     {
                         "name": "D8",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$D8ACCESS7,$HORIZONTAL,aquatic",
@@ -384,6 +448,10 @@
                 "sections": [
                     {
                         "name": "D8",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D8ACCESS7,aquatic",
@@ -405,6 +473,10 @@
                 "sections": [
                     {
                         "name": "D8",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D8ACCESS7,,hook,aquatic",
@@ -430,6 +502,10 @@
                 "sections": [
                     {
                         "name": "D9",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D9ACCESS,$LEDGE",
@@ -454,6 +530,10 @@
                 "sections": [
                     {
                         "name": "D9 in Pot",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$D9ACCESS,$LEDGE",
@@ -475,6 +555,10 @@
                 "sections": [
                     {
                         "name": "D10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D11ACCESS8",
@@ -496,6 +580,10 @@
                 "sections": [
                     {
                         "name": "D12",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$D12ACCESS"
@@ -516,6 +604,10 @@
                 "sections": [
                     {
                         "name": "D13",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": [
                             "$D13ACCESS5,aquatic"
                         ],
@@ -535,6 +627,10 @@
                 "sections": [
                     {
                         "name": "D13",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules":
                         [
                             "$D13ACCESS5,aquatic"
@@ -555,6 +651,10 @@
                 "sections": [
                     {
                         "name": "D14",
+                        "visibility_rules": 
+                        [
+                            "setting_wishes"
+                        ],
                         "access_rules": 
                         [
                             "$D14ACCESS,aquatic,verboten",
@@ -578,6 +678,10 @@
                 "sections": [
                     {
                         "name": "D14",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D14ACCESS,aquatic"
@@ -598,6 +702,10 @@
                 "sections": [
                     {
                         "name": "D15",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D15ACCESS,hook",
@@ -619,6 +727,10 @@
                 "sections": [
                     {
                         "name": "D15",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D15ACCESS"
@@ -639,6 +751,10 @@
                 "sections": [
                     {
                         "name": "D17",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$D17ACCESS,claws",
@@ -660,6 +776,10 @@
                 "sections": [
                     {
                         "name": "D17",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$D17ACCESS,claws",
@@ -681,6 +801,10 @@
                 "sections": [
                     {
                         "name": "D18",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules":
                         [
                             "$D18ACCESS"
@@ -702,6 +826,10 @@
                 "sections": [
                     {
                         "name": "D18",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D18ACCESS,hammer",
@@ -724,6 +852,10 @@
                 "sections": [
                     {
                         "name": "D19",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$D19ACCESS"
@@ -744,6 +876,10 @@
                 "sections": [
                     {
                         "name": "D19",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
                         "access_rules": 
                         [
                             "$D19ACCESS"

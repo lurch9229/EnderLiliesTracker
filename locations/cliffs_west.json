@@ -17,6 +17,10 @@
                 "sections": [
                     {
                         "name": "C1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "$C1ACCESS,hook",
@@ -41,6 +45,10 @@
                 "sections": [
                     {
                         "name": "C1 Inside Crate",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules":
                         [
                             "$C1ACCESS"
@@ -61,6 +69,10 @@
                 "sections": [
                     {
                         "name": "C1",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "$C2ACCESS,hook",
@@ -83,6 +95,10 @@
                 "sections": [
                     {
                         "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "hammer"
@@ -103,6 +119,10 @@
                 "sections": [
                     {
                         "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "hammer"
@@ -123,6 +143,10 @@
                 "sections": [
                     {
                         "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C2ACCESS"
@@ -143,6 +167,10 @@
                 "sections": [
                     {
                         "name": "C2",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$C2ACCESS,claws",
@@ -161,6 +189,7 @@
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
+                       
                         "x": 3370,
                         "y": 1150
                     }
@@ -168,6 +197,10 @@
                 "sections": [
                     {
                         "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules":
                         [
                             "$C4ACCESS"
@@ -188,6 +221,10 @@
                 "sections": [
                     {
                         "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C4ACCESS,hammer,claws",
@@ -211,6 +248,10 @@
                 "sections": [
                     {
                         "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "$C4ACCESS,hammer"
@@ -231,6 +272,10 @@
                 "sections": [
                     {
                         "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C4ACCESS,hook",
@@ -253,6 +298,10 @@
                 "sections": [
                     {
                         "name": "C4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C4ACCESS,claws,$LEDGE",
@@ -281,6 +330,10 @@
                 "sections": [
                     {
                         "name": "C5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "$C5ACCESS,hook,djump",
@@ -306,6 +359,10 @@
                 "sections": [
                     {
                         "name": "C5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C5ACCESS"
@@ -326,6 +383,10 @@
                 "sections": [
                     {
                         "name": "C5",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$LEDGE",
@@ -347,6 +408,10 @@
                 "sections": [
                     {
                         "name": "C6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C6ACCESS,aquatic"
@@ -367,6 +432,10 @@
                 "sections": [
                     {
                         "name": "C6",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$C6ACCESS"
@@ -387,6 +456,10 @@
                 "sections": [
                     {
                         "name": "C6",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$C6ACCESS"
@@ -407,6 +480,10 @@
                 "sections": [
                     {
                         "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "$C6ACCESS"
@@ -427,6 +504,10 @@
                 "sections": [
                     {
                         "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "aquatic"
@@ -447,6 +528,10 @@
                 "sections": [
                     {
                         "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$C9ACCESS1"
@@ -467,6 +552,10 @@
                 "sections": [
                     {
                         "name": "C9",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$C9ACCESS1,$LEDGE2",
@@ -488,6 +577,10 @@
                 "sections": [
                     {
                         "name": "C10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C10ACCESS9"
@@ -508,6 +601,10 @@
                 "sections": [
                     {
                         "name": "C11",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$C11ACCESS",
@@ -534,6 +631,10 @@
                 "sections": [
                     {
                         "name": "C11",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "$C11ACCESS,plume,verboten,silva,dodge2,dash,djump",
@@ -560,6 +661,10 @@
                 "sections": [
                     {
                         "name": "C12",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
                         "access_rules": 
                         [
                             "$C10ACCESS9,dash,lance"
@@ -580,6 +685,10 @@
                 "sections": [
                     {
                         "name": "C13",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$C13ACCESS,$LEDGE2",
@@ -604,6 +713,10 @@
                 "sections": [
                     {
                         "name": "C13",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C13ACCESS"
@@ -624,6 +737,10 @@
                 "sections": [
                     {
                         "name": "C13",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$C13ACCESS"
@@ -644,6 +761,10 @@
                 "sections": [
                     {
                         "name": "C14",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$C13ACCESS"
@@ -664,6 +785,10 @@
                 "sections": [
                     {
                         "name": "C15",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C15ACCESS,hammer,claws,$LEDGE",
@@ -686,6 +811,10 @@
                 "sections": [
                     {
                         "name": "C15",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$C15ACCESS,hammer,djump,dodge2,claws",
@@ -723,6 +852,10 @@
                 "sections": [
                     {
                         "name": "C15",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$C15ACCESS,plume",

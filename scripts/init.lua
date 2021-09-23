@@ -7,6 +7,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 Tracker:AddItems("items/relics.json")
 Tracker:AddItems("items/spirits.json")
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/settings.json")
 
 -- Open Maps, Then Layouts, Then Locations
 if (string.find(Tracker.ActiveVariantUID, "minimal_items")) then

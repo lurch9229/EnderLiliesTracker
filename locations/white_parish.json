@@ -17,6 +17,10 @@
                 "sections": [
                     {
                         "name": "B3",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules":[
                             "$B3ACCESS,hammer"
                         ],
@@ -36,6 +40,10 @@
                 "sections": [
                     {
                         "name": "B3",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": [
                             "$B3ACCESS"
                         ],
@@ -55,6 +63,10 @@
                 "sections": [
                     {
                         "name": "B4",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": [
                             "$B4ACCESS,aquatic"
                         ],

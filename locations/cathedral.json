@@ -18,6 +18,10 @@
                     {
                         "name": "A10",
                         "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
                         "access_rules":
                          [
                             "unlock,tablet:7"
@@ -37,6 +41,10 @@
                 "sections": [
                     {
                         "name": "A3 Inside Barrel",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules":
                         [
                             ""
@@ -58,6 +66,10 @@
                 "sections": [
                     {
                         "name": "A5",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             ""
@@ -79,6 +91,10 @@
                 "sections": [
                     {
                         "name": "A6",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules":
                         [
                             "$LEDGE",
@@ -100,6 +116,10 @@
                 "sections": [
                     {
                         "name": "A7",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             ""
@@ -121,6 +141,10 @@
                 "sections": [
                     {
                         "name": "A8",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules":
                         [
                             "claws"
@@ -142,6 +166,10 @@
                 "sections": [
                     {
                         "name": "A8",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules":
                         [
                             "claws"
@@ -162,6 +190,10 @@
                 "sections": [
                     {
                         "name": "A8",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules":
                         [
                             "claws,dash,lance,$LEDGE"
@@ -171,7 +203,7 @@
                 ]
             },
             {
-                "name": "Priestess' Wish (Prayer Upgrade) ",
+                "name": "Priestess' Wish (Prayer Upgrade)",
                 "map_locations": [
                     {
                         "map": "Cathedral",
@@ -182,6 +214,10 @@
                 "sections": [
                     {
                         "name": "A9",
+                        "visibility_rules": 
+                        [
+                            "setting_wishes"
+                        ],
                         "access_rules":
                         [
                             "claws,hook"

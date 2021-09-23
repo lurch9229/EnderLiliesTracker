@@ -35,6 +35,53 @@
   ]
 },
 
+"settings_grid": {
+  "type": "array",
+  "margin": 5,
+  "content": [
+    {
+      "type": "group",
+      "header": "Settings",
+      "content": [
+        {
+          "type": "item",
+          "item": "setting_spirits"
+        },
+        {
+          "type": "item",
+          "margin": "0, 30, 0, 0",
+          "item": "setting_relics"
+        },
+        {
+          "type": "item",
+          "margin": "0, 60, 0, 0",
+          "item": "setting_amulets"
+        },
+        {
+          "type": "item",
+          "margin":"0, 90, 0, 0",
+          "item": "setting_chains"
+        },
+        {
+          "type": "item",
+          "margin":"0, 120, 0, 0",
+          "item": "setting_blight"
+        },
+        {
+          "type": "item",
+          "margin":"0, 150, 0, 0",
+          "item": "setting_wishes"
+        },
+        {
+          "type": "item",
+          "margin":"0, 180, 0, 0",
+          "item": "setting_c_end"
+        }
+      ]
+    }
+  ]
+},
+
 "tracker_horizontal": 
 {
   "type": "container",
@@ -53,6 +100,12 @@
           {
             "type": "group",
             "header": "Spirits",
+            "header_content": {
+              "type": "button_popup",
+              "style": "settings",
+              "popup_background": "#000000",
+              "layout": "settings_grid"
+            },
             "content": 
             {
               "type": "array",

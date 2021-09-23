@@ -18,6 +18,10 @@
                 "sections":[
                     {
                         "name": "F2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,hook",
@@ -40,6 +44,10 @@
                 "sections":[
                     {
                         "name": "F2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS"
@@ -61,6 +69,10 @@
                 "sections":[
                     {
                         "name": "F3",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,dash,lance"
@@ -82,6 +94,10 @@
                 "sections":[
                     {
                         "name": "Amulet Gem (+20HP)",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,$LEDGE,claws,hook",
@@ -92,6 +108,10 @@
                     },
                     {
                         "name": "Stagnant Blight x30",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,$LEDGE,claws,hook",
@@ -115,6 +135,10 @@
                 "sections":[
                     {
                         "name": "F4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,aquatic"
@@ -136,6 +160,10 @@
                 "sections":[
                     {
                         "name": "F4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,aquatic"
@@ -157,6 +185,10 @@
                 "sections":[
                     {
                         "name": "F4",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,dash,lance"
@@ -178,6 +210,10 @@
                 "sections":[
                     {
                         "name": "F6",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$F6ACCESS,claws",
@@ -200,6 +236,10 @@
                 "sections":[
                     {
                         "name": "F6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F6ACCESS,$LEDGE",
@@ -221,6 +261,10 @@
                 "sections":[
                     {
                         "name": "F8",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,hammer",
@@ -246,6 +290,10 @@
                 "sections":[
                     {
                         "name": "F8",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,hook",
@@ -269,6 +317,10 @@
                 "sections":[
                     {
                         "name": "F9",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,hook",
@@ -298,6 +350,10 @@
                 "sections":[
                     {
                         "name": "F9",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS",
@@ -321,6 +377,10 @@
                 "sections":[
                     {
                         "name": "F9",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,$LEDGE,dash,lance",
@@ -347,6 +407,10 @@
                 "sections":[
                     {
                         "name": "F10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,$LEDGE",
@@ -369,6 +433,10 @@
                 "sections":[
                     {
                         "name": "F12",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS",
@@ -390,6 +458,10 @@
                 "sections":[
                     {
                         "name": "F13",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F13ACCESS"
@@ -410,6 +482,10 @@
                 "sections":[
                     {
                         "name": "F13",
+                        "visibility_rules": 
+                        [
+                            "setting_wishes"
+                        ],
                         "access_rules": 
                         [
                             "$F13ACCESS,hook",
@@ -433,6 +509,10 @@
                 "sections":[
                     {
                         "name": "F14",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F14ACCESS"
@@ -453,6 +533,10 @@
                 "sections":[
                     {
                         "name": "F14",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$F14ACCESS"
@@ -473,6 +557,10 @@
                 "sections":[
                     {
                         "name": "F14",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$F14ACCESS,hook,$LEDGE"
@@ -494,6 +582,10 @@
                 "sections":[
                     {
                         "name": "F15",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,hook",
@@ -516,6 +608,10 @@
                 "sections":[
                     {
                         "name": "F16",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,hammer",
@@ -537,6 +633,10 @@
                 "sections":[
                     {
                         "name": "F18",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,hook",
@@ -558,6 +658,10 @@
                 "sections":[
                     {
                         "name": "F19",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,aquatic"
@@ -578,6 +682,10 @@
                 "sections":[
                     {
                         "name": "F20",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,$LEDGE"
@@ -598,6 +706,10 @@
                 "sections":[
                     {
                         "name": "F21",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,$LEDGE,claws,hook",
@@ -620,6 +732,10 @@
                 "sections":[
                     {
                         "name": "F22",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS,$LEDGE"
@@ -640,6 +756,10 @@
                 "sections":[
                     {
                         "name": "F24",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$StockadeACCESS"
@@ -660,6 +780,10 @@
                 "sections":[
                     {
                         "name": "F25",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$F25ACCESS"
@@ -680,6 +804,10 @@
                 "sections":[
                     {
                         "name": "F27",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
                         "access_rules": 
                         [
                             "$F7ACCESS,hook,unlock"

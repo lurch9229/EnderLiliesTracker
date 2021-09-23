@@ -17,6 +17,10 @@
                 "sections": [
                     {
                         "name": "H2",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -38,6 +42,10 @@
                 "sections": [
                     {
                         "name": "H2",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,claws"
@@ -59,6 +67,10 @@
                 "sections": [
                     {
                         "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,hook",
@@ -83,6 +95,10 @@
                 "sections": [
                     {
                         "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules":
                         [
                             "$RuinedCastleACCESS,hook",
@@ -107,6 +123,10 @@
                 "sections": [
                     {
                         "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -128,6 +148,10 @@
                 "sections": [
                     {
                         "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -149,6 +173,10 @@
                 "sections": [
                     {
                         "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -170,6 +198,10 @@
                 "sections": [
                     {
                         "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -191,6 +223,10 @@
                 "sections": [
                     {
                         "name": "H5",
+                        "visibility_rules": 
+                        [
+                            "setting_chains"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,claws",
@@ -216,6 +252,10 @@
                 "sections": [
                     {
                         "name": "H6",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,claws,djump,$HORIZONTAL",
@@ -242,6 +282,10 @@
                 "sections": [
                     {
                         "name": "H7",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -263,6 +307,10 @@
                 "sections": [
                     {
                         "name": "H9",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,claws,dodge2,silva",
@@ -286,6 +334,10 @@
                 "sections": [
                     {
                         "name": "H10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -307,6 +359,10 @@
                 "sections": [
                     {
                         "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$H11ACCESS10,dash,lance",
@@ -329,6 +385,10 @@
                 "sections": [
                     {
                         "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$H11ACCESS10,dash,lance,hook",
@@ -351,6 +411,10 @@
                 "sections": [
                     {
                         "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_relics"
+                        ],
                         "access_rules": 
                         [
                             "$H11ACCESS10,dash,lance",
@@ -373,6 +437,10 @@
                 "sections": [
                     {
                         "name": "H13",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules":
                         [
                             "$H11ACCESS10",
@@ -395,6 +463,10 @@
                 "sections": [
                     {
                         "name": "H14",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,lance,dash,claws",
@@ -421,6 +493,10 @@
                 "sections": [
                     {
                         "name": "H14",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,hook",
@@ -443,6 +519,10 @@
                 "sections": [
                     {
                         "name": "H14",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,claws,$FULLSILVA,dodge2",
@@ -466,6 +546,10 @@
                 "sections": [
                     {
                         "name": "H15",
+                        "visibility_rules": 
+                        [
+                            "setting_wishes"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -487,6 +571,10 @@
                 "sections": [
                     {
                         "name": "One-Eyed Royal Aegis Fight",
+                        "visibility_rules": 
+                        [
+                            "setting_spirits"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -496,6 +584,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -505,6 +597,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -514,6 +610,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -523,6 +623,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -532,6 +636,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -541,6 +649,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -550,6 +662,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -559,6 +675,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -568,6 +688,10 @@
                     },
                     {
                         "name": "Stagnant Blight x10",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                            "$H16ACCESS"
@@ -589,6 +713,10 @@
                 "sections": [
                     {
                         "name": "H16",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$H16ACCESS,claws",
@@ -612,6 +740,10 @@
                 "sections": [
                     {
                         "name": "H17",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,claws,$HORIZONTAL",
@@ -635,6 +767,10 @@
                 "sections": [
                     {
                         "name": "H17",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -656,6 +792,10 @@
                 "sections": [
                     {
                         "name": "H18",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,hook",
@@ -679,6 +819,10 @@
                 "sections": [
                     {
                         "name": "H18",
+                        "visibility_rules": 
+                        [
+                            "setting_amulets"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS"
@@ -700,6 +844,10 @@
                 "sections": [
                     {
                         "name": "H20",
+                        "visibility_rules": 
+                        [
+                            "setting_blight"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,unlock"
@@ -721,6 +869,10 @@
                 "sections": [
                     {
                         "name": "H20",
+                        "visibility_rules": 
+                        [
+                            "setting_c_end"
+                        ],
                         "access_rules": 
                         [
                             "$RuinedCastleACCESS,unlock"
