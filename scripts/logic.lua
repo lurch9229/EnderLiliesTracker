@@ -121,6 +121,7 @@ function domainMath()
   hp = aegisMath(hp)
   if (hp >= 150 and wishNum(3) and has ("spellbound") and slotNum(5) and has ("dodge2"))
   or (hp >= 150 and has ("holywater") and has ("spellbound") and slotNum(6) and has ("dodge2"))
+  or (hp >=120 and has wishNum(3) and has ("dodge2") and has ("dash"))
   then
     return 1
   else
@@ -1258,6 +1259,7 @@ end
 function J13ACCESSW()
   if (has ("$J9ACCESS") and has ("hook"))
   or (has ("$J9ACCESS") and has ("$LEDGE2") and has ("claws"))
+  or (has ("$J9ACCESS") and has ("$FULLSILVA") and has ("dodge2"))
   then
     return 1
   else

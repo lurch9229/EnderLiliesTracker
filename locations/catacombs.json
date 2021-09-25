@@ -202,7 +202,8 @@
                             "$CatacombsACCESS,hook",
                             "$CatacombsACCESS,claws,silva,$HORIZONTAL",
                             "$CatacombsACCESS,claws,verboten,$HORIZONTAL",
-                            "$CatacombsACCESS,claws,silva,djump"
+                            "$CatacombsACCESS,claws,silva,djump",
+                            "$CatacombsACCESS,silva,djump,dodge2,verboten,plume"
                         ],
                         "item_count": 1
                     }

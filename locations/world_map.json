@@ -1972,7 +1972,8 @@
                             "$CatacombsACCESS,hook",
                             "$CatacombsACCESS,claws,silva,$HORIZONTAL",
                             "$CatacombsACCESS,claws,verboten,$HORIZONTAL",
-                            "$CatacombsACCESS,claws,silva,djump"
+                            "$CatacombsACCESS,claws,silva,djump",
+                            "$CatacombsACCESS,silva,dodge2,djump,verboten,plume"
                         ],
                         "item_count": 1
                     }
@@ -3274,7 +3275,9 @@
                         "access_rules": 
                         [
                             "$G3ACCESS,claws",
-                            "$G3ACCESS,$FULLSILVA,dodge2"
+                            "$G3ACCESS,$FULLSILVA,dodge2",
+                            "$G3ACCESS,silva,dodge2,djump,plume",
+                            "$G3ACCESS,silva,dodge2,djump,dash"
                         ],
                         "item_count": 1
                     }

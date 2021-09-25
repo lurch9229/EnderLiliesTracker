@@ -149,7 +149,9 @@
                         "access_rules": 
                         [
                             "$G3ACCESS,claws",
-                            "$G3ACCESS,$FULLSILVA,dodge2"
+                            "$G3ACCESS,$FULLSILVA,dodge2",
+                            "$G3ACCESS,silva,dodge2,djump,plume",
+                            "$G3ACCESS,silva,dodge2,djump,dash"
                         ],
                         "item_count": 1
                     }
