@@ -354,7 +354,7 @@ function C16ACCESS()
 end
 function C17ACCESSH18()
   if (has ("$H18ACCESS") and has ("$FULLSILVA"))
-  or (has ("$H18ACCESS") and has ("hook"))
+  or (has ("$H18ACCESS") and has ("hook") and has ("$LEDGE"))
   or (has ("$H18ACCESS") and has ("silva") and has ("dodge2") and has ("djump"))
   then
     return 1
@@ -371,6 +371,8 @@ function C17ACCESSC16()
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("$HORIZONTAL"))
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("djump"))
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("verboten"))
+  or (has ("$C16ACCESS") and has ("silva") and has ("djump") and has ("dodge2") and has ("hook"))
+  or (has ("$C16ACCESS") and has ("$FULLSILVA") and has ("hook"))
   then
     return 1
   else
@@ -396,6 +398,8 @@ function C18ACCESSC16()
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("$HORIZONTAL"))
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("djump"))
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("verboten"))
+  or (has ("$C16ACCESS") and has ("silva") and has ("djump") and has ("dodge2") and has ("hook"))
+  or (has ("$C16ACCESS") and has ("$FULLSILVA") and has ("hook"))
   then
     return 1
   else

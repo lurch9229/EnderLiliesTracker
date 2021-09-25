@@ -255,7 +255,7 @@
                         "access_rules":
                         [
                             "$C20ACCESS",
-                            "C20ACCESSH1"
+                            "$C20ACCESSH1"
                         ],
                         "item_count": 1
                     }
