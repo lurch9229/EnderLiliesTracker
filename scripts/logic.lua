@@ -121,7 +121,7 @@ function domainMath()
   hp = aegisMath(hp)
   if (hp >= 150 and wishNum(3) and has ("spellbound") and slotNum(5) and has ("dodge2"))
   or (hp >= 150 and has ("holywater") and has ("spellbound") and slotNum(6) and has ("dodge2"))
-  or (hp >=120 and has wishNum(3) and has ("dodge2") and has ("dash"))
+  or (hp >=120 and wishNum(3) and has ("dodge2") and has ("dash"))
   then
     return 1
   else
@@ -413,6 +413,7 @@ function C18ACCESSE18()
   or (has ("$E17ACCESS") and has ("silva") and has ("djump"))
   or (has ("$E17ACCESS") and has ("sinner"))
   or (has ("$E17ACCESS") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
+  or (has ("$E17ACCESS") and has ("djump") and has ("ulv") and has ("verboten"))
   then
     return 1
   else
@@ -566,6 +567,7 @@ function D11ACCESS10() -- Witches Thicket from D10
   if (has ("$D10ACCESS") and has ("$LEDGE"))
   or (has ("$D10ACCESS") and has ("claws") and has ("faden"))
   or (has ("$D10ACCESS") and has ("claws") and has ("sentinel"))
+  or (has ("D10ACCESS") and has ("archer"))
   then
     return 1
   else
@@ -682,8 +684,16 @@ end
 
 function CatacombsACCESS()
   if has ("$C11ACCESS")
-  or has ("$C18ACCESSC16")
-  or has ("$C18ACCESSH18")
+  or (has ("$C18ACCESSC16") and has ("djump") and has ("dodge2"))
+  or (has ("$C18ACCESSC16") and has ("silva") and has ("djump"))
+  or (has ("$C18ACCESSC16") and has ("jump") and has ("ulv") and ("verboten"))
+  or (has ("$C18ACCESSC16") and has ("sinner"))
+  or (has ("$C18ACCESSC16") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
+  or (has ("$C18ACCESSH18") and has ("djump") and has ("dodge2"))
+  or (has ("$C18ACCESSH18") and has ("silva") and has ("djump"))
+  or (has ("$C18ACCESSH18") and has ("jump") and has ("ulv") and ("verboten"))
+  or (has ("$C18ACCESSH18") and has ("sinner"))
+  or (has ("$C18ACCESSH18") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
   then
     return 1
   else

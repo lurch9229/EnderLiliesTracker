@@ -620,7 +620,8 @@
                         "access_rules": 
                         [
                             "$C9ACCESS1,$LEDGE2",
-                            "$C9ACCESS1,$LEDGE,$HORIZONTAL"
+                            "$C9ACCESS1,$LEDGE,$HORIZONTAL",
+                            "$C9ACCESS,djump,ulv"
                         ],
                         "item_count": 1
                     }
