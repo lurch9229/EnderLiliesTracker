@@ -583,7 +583,7 @@
                         ],
                         "access_rules":
                         [
-                            "$C6ACCESS"
+                            "$C9ACCESS1"
                         ],
                         "item_count": 1
                     },
@@ -595,7 +595,7 @@
                         ],
                         "access_rules": 
                         [
-                            "aquatic"
+                            "$C9ACCESS1,aquatic"
                         ],
                         "item_count": 1
                     },
@@ -607,7 +607,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$C9ACCESS1"
+                            "$C9ACCESS2"
                         ],
                         "item_count": 1
                     },
@@ -619,9 +619,9 @@
                         ],
                         "access_rules": 
                         [
-                            "$C9ACCESS1,$LEDGE2",
-                            "$C9ACCESS1,$LEDGE,$HORIZONTAL",
-                            "$C9ACCESS,djump,ulv"
+                            "$C9ACCESS2,$LEDGE2",
+                            "$C9ACCESS2,$LEDGE,$HORIZONTAL",
+                            "$C9ACCESS2,djump,ulv"
                         ],
                         "item_count": 1
                     }
