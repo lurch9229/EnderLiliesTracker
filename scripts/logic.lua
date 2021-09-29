@@ -337,6 +337,7 @@ function C15ACCESS()
   or (has ("$C5ACCESS") and has ("djump") and has ("silva"))
   or (has ("$C5ACCESS") and has ("djump") and has ("verboten") and ("silva"))
   or (has ("$C5ACCESS") and has ("sinner") and has ("silva"))
+  or (has ("$C5ACCESS") and has ("verborten") and has ("sinner"))
   or (has ("$C5ACCESS") and has ("plume") and has ("dodge2") and has ("dash"))
   then
     return 1
@@ -1325,7 +1326,7 @@ function K4ACCESS()
 end
 
 function K5ACCESS()
-  if (has ("$K4ACCESS") and has ("$abyssGauntlet") and has ("dodge2") and has ("dash") and has ("djump") and has ("aquatic") and has ("hook") and has ("hammer") and has ("spellbound") and has ("witchbook") and wishNum(3) and has ("holywater") and slotNum(7))
+  if (has ("$K4ACCESS") and has ("$abyssGauntlet") and has ("dodge2") and has ("dash") and has ("djump") and has ("aquatic") and has ("hook") and has ("hammer") and has ("spellbound") and has ("witchbook") and wishNum(6) and has ("holywater") and slotNum(7))
   then
     return 1
   else

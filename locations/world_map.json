@@ -2732,7 +2732,8 @@
                             "$F9ACCESS8,$LEDGE2",
                             "$F9ACCESS8,verboten,claws",
                             "F9ACCESS8,djump,claws",
-                            "F9ACCESS8,silva,plume"
+                            "F9ACCESS8,silva,plume",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
                         ],
                         "item_count": 1
                     },
@@ -2747,7 +2748,8 @@
                             "$F7ACCESS",
                             "F9ACCESS8,djump,claws",
                             "$F9ACCESS8,hook",
-                            "$F9ACCESS8,verboten,silva,claws"
+                            "$F9ACCESS8,verboten,silva,claws",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
                         ],
                         "item_count": 1
                     },
@@ -2765,7 +2767,8 @@
                             "$F7ACCESS,hook,dash,lance",
                             "$F9ACCESS8,djump,claws,dash,lance",
                             "$F9ACCESS8,hook,dash,lance",
-                            "$F9ACCESS8,verboten,silva,claws,dash,lance"
+                            "$F9ACCESS8,verboten,silva,claws,dash,lance",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,dash,lance"
                         ],
                         "item_count": 1
                     }
@@ -2791,7 +2794,8 @@
                         [
                             "$F7ACCESS,$LEDGE",
                             "$F7ACCESS,$HORIZONTAL",
-                            "$F10ACCESS8,hook"
+                            "$F10ACCESS8,hook",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
                         ],
                         "item_count": 1
                     }
@@ -2930,7 +2934,8 @@
                         [
                             "$F7ACCESS,hook",
                             "$F7ACCESS,$LEDGE",
-                            "$F10ACCESS8,hook"
+                            "$F10ACCESS8,hook",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
                         ],
                         "item_count": 1
                     }
@@ -2955,7 +2960,8 @@
                         "access_rules": 
                         [
                             "$F7ACCESS,hammer",
-                            "$F10ACCESS8,hook,hammer"
+                            "$F10ACCESS8,hook,hammer",
+                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,hammer"
                         ],
                         "item_count": 1
                     }
