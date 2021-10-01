@@ -560,7 +560,7 @@
                         [
                             "$C9ACCESS2,$LEDGE2",
                             "$C9ACCESS2,$LEDGE,$HORIZONTAL",
-							"$c9ACCESS2,djump,ulv"
+							"$C9ACCESS2,djump,ulv"
                         ],
                         "item_count": 1
                     }
