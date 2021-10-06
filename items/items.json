@@ -190,31 +190,23 @@
 	"swap_actions": false
   },
   {
-    "name": "defeatSiegrid",
+    "name": "Defeat Siegrid",
     "type": "toggle",
-    "loop": false,
-    "codes": "defeatSiegrid",
-    "swap_actions": false
+    "codes": "defeatSiegrid"
   },
   {
-    "name": "defeatGerrod",
+    "name": "Defeat Gerrod",
     "type": "toggle",
-    "loop": false,
-    "codes": "defeatGerrod",
-    "swap_actions": false
+    "codes": "defeatGerrod"
   },
   {
-    "name": "defeatHoenir",
+    "name": "Defeat Hoenir",
     "type": "toggle",
-    "loop": false,
-    "codes": "defeatHoenir",
-    "swap_actions": false
+    "codes": "defeatHoenir"
   },
   {
-    "name": "defeatUlv",
+    "name": "Defeat Ulv",
     "type": "toggle",
-    "loop": false,
-    "codes": "defeatUlv",
-    "swap_actions": false
+    "codes": "defeatUlv"
   }
 ]

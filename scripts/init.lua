@@ -25,6 +25,7 @@ else if (string.find(Tracker.ActiveVariantUID,"map_tracker")) then
     Tracker:AddMaps("maps/maps.json")
     Tracker:AddLayouts("layouts/tracker_standard.json")
     Tracker:AddLayouts("layouts/broadcast_horizontal.json")
+    Tracker:AddLocations("locations/world_map.json")
     Tracker:AddLocations("locations/cathedral.json")
     Tracker:AddLocations("locations/white_parish.json")
     Tracker:AddLocations("locations/cliffs_west.json")
@@ -35,7 +36,6 @@ else if (string.find(Tracker.ActiveVariantUID,"map_tracker")) then
     Tracker:AddLocations("locations/stockade.json")
     Tracker:AddLocations("locations/ruined_castle.json")
     Tracker:AddLocations("locations/verboten_domain.json")
-    Tracker:AddLocations("locations/world_map.json")
 end
 end
 end

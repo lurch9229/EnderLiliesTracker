@@ -542,11 +542,8 @@
                             "$F7ACCESS",
                             "$F10ACCESS8"
                         ],
-                        "hosted_item": 
-                        [
-                            "defeatHoenir"
-                        ],
-                        "item_count": 2
+                        "hosted_item": "defeatHoenir",
+                        "item_count": 1
                     }
                 ]
             },

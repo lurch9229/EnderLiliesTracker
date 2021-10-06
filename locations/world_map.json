@@ -190,17 +190,14 @@
                         "name": "Guardian Siegrid Fight",
                         "visibility_rules": 
                         [
-                            "setting_spirits"
+                            ""
                         ],
                         "access_rules": 
                         [
                             ""
                         ],
-                        "hosted_item": 
-                        [
-                            "defeatSiegrid"
-                        ],
-                        "item_count": 2
+                        "item_count": 1,
+                        "hosted_item": "defeatsiegrid"
                     }
                 ]
             },
@@ -1121,11 +1118,8 @@
                         [
                             "$C8ACCESS"
                         ],
-                        "hosted_item": 
-                        [
-                            "defeatGerrod"
-                        ],
-                        "item_count": 2
+                        "item_count": 1,
+                        "hosted_item": "defeatGerrod"
                     }
                 ]
             },
@@ -1428,7 +1422,8 @@
                         ],
                         "access_rules":
                         [
-                            "$C19ACCESS,hammer"
+                            "$C19ACCESS,hammer",
+                            "$C19ACCESSC20,hammer"
                         ],
                         "item_count": 1
                     }
@@ -3542,11 +3537,8 @@
                             "$F7ACCESS",
                             "$F10ACCESS8"
                         ],
-                        "hosted_item": 
-                        [
-                            "defeatHoenir"
-                        ],
-                        "item_count": 2
+                        "item_count": 1,
+                        "hosted_item": "defeatHoenir"
                     }
                 ]
             },
@@ -4565,17 +4557,17 @@
                 ]
             },
             {
-                "name": "G18",
+                "name": "G18 Ulv",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 11790,
+                        "x": 11710,
                         "y": 280
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Ulv, The Mad Knight Fight",
+                        "name": "Ulv, The Mad Knight",
                         "visibility_rules": 
                         [
                             "setting_spirits"
@@ -4584,12 +4576,21 @@
                         [
                             "$G18ACCESS"
                         ],
-                        "hosted_item": 
-                        [
-                            "defeatUlv"
-                        ],
-                        "item_count": 2
-                    },
+                        "item_count": 1,
+                        "hosted_item": "defeatUlv"
+                    }
+                ]
+            },
+            {
+                "name": "G18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11840,
+                        "y": 280
+                    }
+                ],
+                "sections": [
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
                         "visibility_rules": 
@@ -4612,9 +4613,9 @@
                         ],
                         "access_rules": 
                         [
-                            "$G18ACCESS,claws,defeatUlv",
-                            "$G18ACCESS,$FULLSILVA,defeatUlv",
-                            "$G18ACCESS,silva,djump,dodge2,defeatUlv"
+                            "$G18ACCESS,claws,$defeatUlv",
+                            "$G18ACCESS,$FULLSILVA,$defeatUlv",
+                            "$G18ACCESS,silva,djump,dodge2,$defeatUlv"
                         ],
                         "item_count": 1
                     }

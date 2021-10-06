@@ -262,17 +262,14 @@
                         "name": "A7",
                         "visibility_rules": 
                         [
-                            "setting_spirits"
+                            ""
                         ],
                         "access_rules": 
                         [
                             ""
                         ],
-                        "hosted_item": 
-                        [
-                            "defeatSiegrid"
-                        ],
-                        "item_count": 2
+                        "hosted_item": "defeatsiegrid",
+                        "item_count": 1
                     }
                 ]
             },
