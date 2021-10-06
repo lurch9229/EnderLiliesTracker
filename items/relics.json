@@ -60,7 +60,7 @@
     "name": "Broken Music Box",
     "type": "consumable",
     "loop": "false",
-    "img": "Images/relics/broken_music_box.png",
+    "img": "images/relics/broken_music_box.png",
     "codes": "music",
     "max_quantity": 2,
     "increment": 2

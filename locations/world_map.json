@@ -6,17 +6,53 @@
         "color": "#FFFFFF",
         "children": [
             {
+                "name": "A1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 445,
+                        "y": 2750
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Statue Inscription",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Umbral Knight",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_health"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "A3",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 990,
+                        "x": 975,
                         "y": 2850
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Barrel)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -27,6 +63,54 @@
                         ],
                         
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Eleine's Letter",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "A4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 1280,
+                        "y": 2860
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - On the Blighted I",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Finding - On the Blighted II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
                     }
                 ]
             },
@@ -35,7 +119,7 @@
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 1610,
+                        "x": 1625,
                         "y": 2850
                     }
                 ],
@@ -52,6 +136,18 @@
                         ],
                         
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - The Parish Way",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
                     }
                 ]
             },
@@ -85,7 +181,7 @@
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 2135,
+                        "x": 2120,
                         "y": 2660
                     }
                 ],
@@ -100,6 +196,10 @@
                         [
                             ""
                         ],
+                        "hosted_item": 
+                        [
+                            "defeatSiegrid"
+                        ],
                         "item_count": 2
                     }
                 ]
@@ -110,7 +210,7 @@
                     {
                         "map": "WorldMap",
                         "x": 1300,
-                        "y": 2403
+                        "y": 2435
                     }
                 ],
                 "sections": [
@@ -174,6 +274,18 @@
                             "claws,hook"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Lily's Note",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "claws,hook"
+                        ]
                     }
                 ]
             },
@@ -197,6 +309,42 @@
                         "access_rules":
                          [
                             "unlock,tablet:7"
+                        ]
+                    },
+                    {
+                        "name": "Finding - Restoring the Aegis Curio",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "unlock"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "B1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 2525,
+                        "y": 2665
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Groa's Letter",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$B1ACCESS"
                         ]
                     }
                 ]
@@ -256,6 +404,18 @@
                             "$B4ACCESS,aquatic"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - The Parish Way II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$B4ACCESS"
+                        ]
                     }
                 ]
             },
@@ -336,7 +496,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Barrel)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -375,6 +535,30 @@
                             "$C2ACCESS,ulv"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "C3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5460,
+                        "y": 2050
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - True Believer's Note",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C3ACCESS"
+                        ]
                     }
                 ]
             },
@@ -566,6 +750,42 @@
                 ]
             },
             {
+                "name": "C7",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6972,
+                        "y": 1910
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Hamlet Request I",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C7ACCESS"
+                        ]
+                    },
+                    {
+                        "name": "Finding - Adherent's Letter",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C7ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "C9",
                 "map_locations": [
                     {
@@ -600,7 +820,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
                         "visibility_rules": 
                         [
                             "setting_chains"
@@ -720,6 +940,18 @@
                             "$C10ACCESS9,dash,lance"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - True Believer's Note",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C10ACCESS9,dash,lance"
+                        ]
                     }
                 ]
             },
@@ -889,6 +1121,10 @@
                         [
                             "$C8ACCESS"
                         ],
+                        "hosted_item": 
+                        [
+                            "defeatGerrod"
+                        ],
                         "item_count": 2
                     }
                 ]
@@ -1016,6 +1252,32 @@
                 ]
             },
             {
+                "name": "C18",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10770,
+                        "y": 2115
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Bloodied Note I",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C18ACCESSE18",
+                            "$C18ACCESSC16",
+                            "$C18ACCESSH18"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "C19",
                 "map_locations": [
                     {
@@ -1026,6 +1288,32 @@
                 ],
                 "sections": [
                     {
+                        "name": "Finding - Hamlet Scrawl",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
+                        ]
+                    },
+                    {
+                        "name": "Finding - Hamlet Request II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
+                        ]
+                    },
+                    {
                         "name": "Furious Blight x10",
                         "visibility_rules": 
                         [
@@ -1033,7 +1321,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$C19ACCESS"
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
                         ],
                         "item_count": 1
                     }
@@ -1217,7 +1506,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -1267,6 +1556,30 @@
                 ]
             },
             {
+                "name": "D4",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 5560,
+                        "y": 3190
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Coven Handbook",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D4ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "D5",
                 "map_locations": [
                     {
@@ -1277,7 +1590,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -1381,6 +1694,30 @@
                             "$D6ACCESS,djump,silva"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D7",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 6742,
+                        "y": 3640
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Sorcerer's Note",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D7ACCESS"
+                        ]
                     }
                 ]
             },
@@ -1513,7 +1850,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -1549,6 +1886,31 @@
                             "$D11ACCESS10"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "D11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7292,
+                        "y": 4165
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - The Parish Way III",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D11ACCESS10",
+                            "$D11ACCESS8"
+                        ]
                     }
                 ]
             },
@@ -1647,6 +2009,19 @@
                             "$D14ACCESS,aquatic"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Tarnished Picture",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D14ACCESS,aquatic,$LEDGE",
+                            "$D14ACCESS,aquatic,claws"
+                        ]
                     }
                 ]
             },
@@ -1688,6 +2063,32 @@
                 ]
             },
             {
+                "name": "D16",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8000,
+                        "y": 4560
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Faden's Archives III",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D16ACCESS",
+                            "$F26ACCESS,hammer,hook,dash,lance,mask",
+                            "$F26ACCESS,hammer,hook,dash,lance,$verbotenMath,$LEDGE"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "D17",
                 "map_locations": [
                     {
@@ -1722,6 +2123,31 @@
                             "$D17ACCESS,$LEDGE"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Eleine's Diary I",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D17ACCESS"
+                        ]
+                    },
+                    {
+                        "name": "Finding - Eleine's Diary II",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D17ACCESS,hook,$LEDGE",
+                            "$D17ACCESS,claws"
+                        ]
                     }
                 ]
             },
@@ -1761,6 +2187,18 @@
                             "$D18ACCESS,hook"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Lover's Letter",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D18ACCESS"
+                        ]
                     }
                 ]
             },
@@ -1875,6 +2313,43 @@
                 ]
             },
             {
+                "name": "E3",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 7310,
+                        "y": 3060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Defense of the Twin Spires II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Fretia's Memoirs IV",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E18ACCESSRev"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "E4",
                 "map_locations": [
                     {
@@ -1884,6 +2359,30 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Finding - Fretia's Memoirs I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Fretia's Memoirs II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Kilteus' Ring",
                         "visibility_rules": 
@@ -1977,6 +2476,18 @@
                             "$CatacombsACCESS,silva,dodge2,djump,verboten,plume"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - The Next White Priestess",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$CatacombsACCESS"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2017,6 +2528,29 @@
                             "$CatacombsACCESS,aquatic,hammer,$LEDGE",
                             "$CatacombsACCESS,aquatic,hammer,plume",
                             "$C18ACCESSH18,hammer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Defense of the Twin Spires I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C11ACCESS,swim",
+                            "$C18ACCESSC16,silva,verboten,ulv,fretia",
+                            "$C18ACCESSC16,djump,dodge2",
+                            "$C18ACCESSC16,djump,ulv,verboten",
+                            "$C18ACCESSC16,sinner",
+                            "$C18ACCESSC16,djump,silva",
+                            "$C18ACCESSH18,djump,silva",
+                            "$C18ACCESSH18,sinner",
+                            "$C18ACCESSH18,djump,ulv,verboten",
+                            "$C18ACCESSH18,djump,dodge2",
+                            "$C18ACCESSH18,silva,verboten,ulv,fretia",
+                            "$E14ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -2099,6 +2633,27 @@
                             "$E10ACCESS,claws,ulv,fretia,spellbound"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Silva's Note I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E18ACCESSRev",
+                            "$E14ACCESS,sinner",
+                            "$E14ACCESS,$LEDGE,dodge2",
+                            "$E14ACCESS,silva,dash",
+                            "$E14ACCESS,silva,djump",
+                            "$E14ACCESS,djump,verboten",
+                            "$E14ACCESS,verboten,silva,ulv,fretia",
+                            "$E14ACCESS,dodge2,ulv",
+                            "$E14ACCESS,$LEDGE,claws"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2140,6 +2695,20 @@
                             "$E10ACCESS,silva,ulv"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Silva's Note II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E18ACCESSRev",
+                            "$E14ACCESS"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2178,7 +2747,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -2218,7 +2787,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -2261,6 +2830,20 @@
                 ],
                 "sections": [
                     {
+                        "name": "Finding - Unfinished Note",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E10ACCESS",
+                            "$E18ACCESSRev",
+                            "$E14ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Guardian Silva Fight",
                         "visibility_rules": 
                         [
@@ -2285,7 +2868,20 @@
                 ],
                 "sections": [
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Finding - The Heirloom of Land's End",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$E16ACCESS",
+                            "$E18ACCESSRev"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -2309,6 +2905,41 @@
                             "$E16ACCESS,djump",
                             "$E16ACCESS,silva,claws",
                             "$E16ACCESS,silva,$HORIZONTAL"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "E17",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9420,
+                        "y": 2235
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Fretia's Memoirs III",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$C11ACCESS,swim",
+                            "$C18ACCESSC16,silva,verboten,ulv,fretia",
+                            "$C18ACCESSC16,djump,dodge2",
+                            "$C18ACCESSC16,djump,ulv,verboten",
+                            "$C18ACCESSC16,sinner",
+                            "$C18ACCESSC16,djump,silva",
+                            "$C18ACCESSH18,djump,silva",
+                            "$C18ACCESSH18,sinner",
+                            "$C18ACCESSH18,djump,ulv,verboten",
+                            "$C18ACCESSH18,djump,dodge2",
+                            "$C18ACCESSH18,silva,verboten,ulv,fretia",
+                            "$E14ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -2361,7 +2992,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "name": "Chain Of Sorcery (+1 Relic Slot) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_chains"
@@ -2500,6 +3131,30 @@
                 ]
             },
             {
+                "name": "F1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8447,
+                        "y": 3470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Executioner's Vow",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "F2",
                 "map_locations": [
                     {
@@ -2618,6 +3273,30 @@
                         "access_rules": 
                         [
                             "$StockadeACCESS,dash,lance"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F5",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9660,
+                        "y": 3792
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Executioner's Missive",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F5ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -2771,6 +3450,22 @@
                             "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,dash,lance"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Slip of Paper",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,$LEDGE",
+                            "$F7ACCESS,$HORIZONTAL",
+                            "$F7ACCESS,claws",
+                            "$F7ACCESS,hook",
+                            "$F9ACCESS8,hook"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -2802,6 +3497,31 @@
                 ]
             },
             {
+                "name": "F11",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11530,
+                        "y": 3710
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "Finding - Hoenir's Diary II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS",
+                            "$F10ACCESS8"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "F12",
                 "map_locations": [
                     {
@@ -2821,6 +3541,10 @@
                         [
                             "$F7ACCESS",
                             "$F10ACCESS8"
+                        ],
+                        "hosted_item": 
+                        [
+                            "defeatHoenir"
                         ],
                         "item_count": 2
                     }
@@ -2844,7 +3568,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$F13ACCESS"
+                            "$F13ACCESS,defeatHoenir"
                         ],
                         "item_count": 1
                     },
@@ -2856,10 +3580,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$F13ACCESS,hook",
-                            "$F13ACCESS,silva,djump,$HORIZONTAL,claws",
-                            "$F13ACCESS,silva,djump,ulv,claws",
-                            "$F13ACCESS,$FULLSILVA"
+                            "$F13ACCESS,hook,defeatHoenir",
+                            "$F13ACCESS,silva,djump,$HORIZONTAL,claws,defeatHoenir",
+                            "$F13ACCESS,silva,djump,ulv,claws,defeatHoenir",
+                            "$F13ACCESS,$FULLSILVA,defeatHoenir"
                         ],
                         "item_count": 1
                     }
@@ -2962,6 +3686,31 @@
                             "$F7ACCESS,hammer",
                             "$F10ACCESS8,hook,hammer",
                             "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,hammer"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "F17",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 10420,
+                        "y": 3300
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Hoenir's Diary I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,silva,djump"
                         ],
                         "item_count": 1
                     }
@@ -3091,6 +3840,30 @@
                 ]
             },
             {
+                "name": "F23",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8865,
+                        "y": 3498
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Forbidden Text Scrap",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "F24",
                 "map_locations": [
                     {
@@ -3210,7 +3983,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "name": "Chain Of Sorcery (+1 Relic Slot) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_chains"
@@ -3225,7 +3998,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -3287,6 +4060,18 @@
                             "$G3ACCESS,silva,dodge2,djump,dash"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Bloodied Note II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G3ACCESS"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -3300,6 +4085,18 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Finding - Note on the Castle Wall",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G5ACCESS"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Snowdrop Bracelet",
                         "visibility_rules": 
@@ -3354,6 +4151,30 @@
                         "visibility_rules": 
                         [
                             "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "G7",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 12120,
+                        "y": 1650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Hoenir's Diary III",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -3453,6 +4274,30 @@
                 ]
             },
             {
+                "name": "G10",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 11200,
+                        "y": 1220
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Monument Engraving",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "G11",
                 "map_locations": [
                     {
@@ -3463,7 +4308,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
                         "visibility_rules": 
                         [
                             "setting_chains"
@@ -3523,11 +4368,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Hanging Nest (Tablet Fragment and FUrious x800)",
+                        "name": "Hanging Nest (Tablet Fragment and FUrious x800 \n Finding - Writing on the Wall)",
                         "visibility_rules": 
                         [
                             "setting_blight",
-                            "setting_c_end"
+                            "setting_c_end",
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -3583,6 +4429,18 @@
                             "$G13ACCESS,$HORIZONTAL,hook",
                             "$G13ACCESS,claws,hook",
                             "G13ACCESS,$LEDGE2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Bloodied Note III",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G3ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -3726,6 +4584,10 @@
                         [
                             "$G18ACCESS"
                         ],
+                        "hosted_item": 
+                        [
+                            "defeatUlv"
+                        ],
                         "item_count": 2
                     },
                     {
@@ -3736,9 +4598,23 @@
                         ],
                         "access_rules": 
                         [
-                            "$G18ACCESS,claws",
-                            "$G18ACCESS,$FULLSILVA",
-                            "$G18ACCESS,silva,djump,dodge2"
+                            "$G18ACCESS,claws,defeatUlv",
+                            "$G18ACCESS,$FULLSILVA,defeatUlv",
+                            "$G18ACCESS,silva,djump,dodge2,defeatUlv"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - White Priestess' Bastion Letter",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G18ACCESS,claws,defeatUlv",
+                            "$G18ACCESS,$FULLSILVA,defeatUlv",
+                            "$G18ACCESS,silva,djump,dodge2,defeatUlv"
                         ],
                         "item_count": 1
                     }
@@ -3776,6 +4652,31 @@
                         [
                             "$G19ACCESS,aquatic"
                         ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H1",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9890,
+                        "y": 1650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Proof of Founding",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
                         "item_count": 1
                     }
                 ]
@@ -3856,6 +4757,32 @@
                             "$RuinedCastleACCESS,claws,silva,djump,dodge2",
                             "$RuinedCastleACCESS,claws,$FULLSILVA",
                             "$RuinedCastleACCESS,claws,silva,dodge2,verboten"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - King of the First Age's Diary I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - King of the FIrst Age's Diary II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
                         ],
                         
                         "item_count": 1
@@ -3995,6 +4922,19 @@
                         ],
                         
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Julius' Book",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
                     }
                 ]
             },
@@ -4101,6 +5041,46 @@
                         ],
                         
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - King's Note II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance",
+                            "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "H12",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9100,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - King's Note I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10",
+                            "$H16ACCESS"
+                        ],
+                        
+                        "item_count": 1
                     }
                 ]
             },
@@ -4109,8 +5089,8 @@
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9330,
-                        "y": 830
+                        "x": 9360,
+                        "y": 810
                     }
                 ],
                 "sections": [
@@ -4198,6 +5178,19 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Finding - Priestess' Castle Memo",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    },
                     {
                         "name": "Priestess' Wish (Prayer Upgrade)",
                         "visibility_rules": 
@@ -4347,15 +5340,53 @@
                 ]
             },
             {
+                "name": "H19",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 9105,
+                        "y": 1965
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Report from a Verboten Mage",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "H20",
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 9890,
-                        "y": 1340
+                        "x": 9850,
+                        "y": 1347
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Finding - King of the First Age's Diary III",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,unlock"
+                        ],
+                        
+                        "item_count": 1
+                    },
                     {
                         "name": "Stagnant Blight x100",
                         "visibility_rules": 
@@ -4531,6 +5562,23 @@
                             "$J4ACCESSF26"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Verboten Domain Notice",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J4ACCESSF26",
+                            "$D16ACCESS,dash,mask",
+                            "$D16ACCESS,dodge2,mask",
+                            "$D16ACCESS,dodge2,$domainMath",
+                            "$D16ACCESS,dash,$domainMath"
+                            
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -4644,6 +5692,18 @@
                         "access_rules": 
                         [
                             "$J7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Faden's Archives IV",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J7ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -4831,6 +5891,18 @@
                             "$J11ACCESS,hammer"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Faden's Archives II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -4871,6 +5943,30 @@
                 ]
             },
             {
+                "name": "J14",
+                "map_locations": [
+                    {
+                        "map": "WorldMap",
+                        "x": 8185,
+                        "y": 6435
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Finding - Faden's Archives I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "J16",
                 "map_locations": [
                     {
@@ -4904,6 +6000,30 @@
                             "$J14ACCESS"
                         ],
                         "item_count": 2
+                    },
+                    {
+                        "name": "Finding - Miriel's Blighted Letter",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Finding - Faden's Archives V",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
                     }
                 ]
             },
@@ -4922,6 +6042,18 @@
                         "visibility_rules": 
                         [
                             "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K1ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Silva's Bloodstained Note I",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -4966,6 +6098,30 @@
                             "$K2ACCESS,silva,djump,dodge2,ulv",
                             "$K2ACCESS,claws,$LEDGE2"
 
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Silva's Bloodstained Note II",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Fretia's Memoirs V",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
                         ],
                         "item_count": 1
                     },
@@ -5058,6 +6214,18 @@
                         "visibility_rules": 
                         [
                             "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K5ACCESS"
+                        ],
+                        "item_count": 1 
+                    },
+                    {
+                        "name": "Finding - The Deathless Pact",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [

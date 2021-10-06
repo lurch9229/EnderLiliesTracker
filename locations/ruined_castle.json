@@ -6,6 +6,31 @@
         "color": "#FFFFFF",
         "children": [
             {
+                "name": "Finding - Proof of Founding",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4665,
+                        "y": 2170
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H1",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Royal Aegis Crest",
                 "map_locations": [
                     {
@@ -77,6 +102,56 @@
                             "$RuinedCastleACCESS,$AIRSTALL",
                             "$RuinedCastleACCESS,$LEDGE",
                             "$RuinedCastleACCESS,$HORIZONTAL"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King of the First Age's Diary I",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3580,
+                        "y": 1440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King of the FIrst Age's Diary II",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4150,
+                        "y": 1440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H3",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
                         ],
                         
                         "item_count": 1
@@ -271,6 +346,31 @@
                 ]
             },
             {
+                "name": "Finding - Julius' Book",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 450,
+                        "y": 1500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H7",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Stagnant Blight x30",
                 "map_locations": [
                     {
@@ -348,7 +448,7 @@
                 ]
             },
             {
-                "name": "Amulet Fragment (+5HP) ",
+                "name": "Amulet Fragment (+5HP)",
                 "map_locations": [
                     {
                         "map": "RuinedCastle",
@@ -362,6 +462,32 @@
                         "visibility_rules": 
                         [
                             "setting_amulets"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10,dash,lance",
+                            "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King's Note II",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 1620,
+                        "y": 730
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H11",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -419,6 +545,32 @@
                         [
                             "$H11ACCESS10,dash,lance",
                             "$H16ACCESS,dash,lance"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King's Note I",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2625,
+                        "y": 800
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H12",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$H11ACCESS10",
+                            "$H16ACCESS"
                         ],
                         
                         "item_count": 1
@@ -549,6 +701,31 @@
                         "visibility_rules": 
                         [
                             "setting_wishes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Priestess' Castle Memo",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 3495,
+                        "y": 470
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H15",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -833,6 +1010,31 @@
                 ]
             },
             {
+                "name": "Finding - Report from a Verboten Mage",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 2512,
+                        "y": 2700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H19",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Stagnant Blight x100",
                 "map_locations": [
                     {
@@ -872,6 +1074,31 @@
                         "visibility_rules": 
                         [
                             "setting_c_end"
+                        ],
+                        "access_rules": 
+                        [
+                            "$RuinedCastleACCESS,unlock"
+                        ],
+                        
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - King of the First Age's Diary III",
+                "map_locations": [
+                    {
+                        "map": "RuinedCastle",
+                        "x": 4648,
+                        "y": 1500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "H20",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [

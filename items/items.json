@@ -96,7 +96,7 @@
 	"initial_active_state": true,
 	"allow_disabled": false,
     "img": "images/items/jump.png",
-    "codes": "jump",
+    "codes": "jump"
   },
   {
     "name": "Last Rites",
@@ -119,7 +119,7 @@
     "type": "toggle",
 	"initial_active_state": true,
 	"allow_disabled": false,
-    "img": "images/items/Prayer.png",
+    "img": "images/items/prayer.png",
     "codes": "pray"
   },
   {
@@ -148,7 +148,7 @@
 	"initial_active_state": true,
 	"allow_disabled": false,
     "img": "images/items/swim.png",
-    "codes": "paddle",
+    "codes": "paddle"
   },
   {
     "name": "Switch Spirits",
@@ -156,7 +156,7 @@
 	"initial_active_state": true,
 	"allow_disabled": false,
     "img": "images/items/switch.png",
-    "codes": "switch",
+    "codes": "switch"
   },
   {
     "name": "Unlock",
@@ -188,5 +188,33 @@
     "loop": "false",
     "codes": "health",
 	"swap_actions": false
+  },
+  {
+    "name": "defeatSiegrid",
+    "type": "toggle",
+    "loop": false,
+    "codes": "defeatSiegrid",
+    "swap_actions": false
+  },
+  {
+    "name": "defeatGerrod",
+    "type": "toggle",
+    "loop": false,
+    "codes": "defeatGerrod",
+    "swap_actions": false
+  },
+  {
+    "name": "defeatHoenir",
+    "type": "toggle",
+    "loop": false,
+    "codes": "defeatHoenir",
+    "swap_actions": false
+  },
+  {
+    "name": "defeatUlv",
+    "type": "toggle",
+    "loop": false,
+    "codes": "defeatUlv",
+    "swap_actions": false
   }
 ]

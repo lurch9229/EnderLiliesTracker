@@ -6,6 +6,30 @@
         "color": "#FFFFFF",
         "children": [
             {
+                "name": "Finding - Groa's Letter",
+                "map_locations": [
+                    {
+                        "map": "WhiteParish",
+                        "x": 1790,
+                        "y": 2760
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "B1",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$B1ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
@@ -71,6 +95,30 @@
                             "$B4ACCESS,aquatic"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - The Parish Way II",
+                "map_locations": [
+                    {
+                        "map": "WhiteParish",
+                        "x": 8535,
+                        "y": 2680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "B4",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$B4ACCESS"
+                        ]
                     }
                 ]
             }

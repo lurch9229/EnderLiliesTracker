@@ -25,6 +25,10 @@
                         [
                             "$C8ACCESS"
                         ],
+                        "hosted_item": 
+                        [
+                            "defeatGerrod"
+                        ],
                         "item_count": 2
                     }
                 ]
@@ -188,6 +192,87 @@
                 ]
             },
             {
+                "name": "Finding - Bloodied Note I",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 10520,
+                        "y": 4150
+                    },
+                    {
+                        "map": "TwinSpires",
+                        "x": 470,
+                        "y": 2430
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C18",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C18ACCESSE18",
+                            "$C18ACCESSC16",
+                            "$C18ACCESSH18"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Hamlet Scrawl",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 1140,
+                        "y": 2720
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C19",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Hamlet Request II",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletEast",
+                        "x": 1560,
+                        "y": 2720
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C19",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Furious Blight x10",
                 "map_locations": [
                     {
@@ -205,7 +290,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$C19ACCESS"
+                            "$C19ACCESS",
+                            "$C19ACCESSC20"
                         ],
                         "item_count": 1
                     }
@@ -357,7 +443,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$C19ACCESS,hammer"
+                            "$C19ACCESS,hammer",
+                            "$C19ACCESSC20,hammer"
                         ],
                         "item_count": 1
                     }

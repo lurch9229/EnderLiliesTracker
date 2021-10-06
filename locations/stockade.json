@@ -6,6 +6,30 @@
         "color": "#FFFFFF",
         "children": [
             {
+                "name": "Finding - Executioner's Vow",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 440,
+                        "y": 1258
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "F1",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Stagnant Blight x30",
                 "map_locations": [
                     {
@@ -198,6 +222,30 @@
                 ]
             },
             {
+                "name": "Finding - Executioner's Missive",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 2915,
+                        "y": 2130
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "F5",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F5ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "2 Amulet Fragments (+5 HP x2)",
                 "map_locations": [
                     {
@@ -359,9 +407,7 @@
                         [
                             "$F7ACCESS",
                             "F9ACCESS8,djump,claws",
-                            "$F9ACCESS8,hook",
-                            "$F9ACCESS8,verboten,silva,claws",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL"
+                            "$F9ACCESS8,hook"
                         ],
                         "item_count": 1
                     }
@@ -389,10 +435,35 @@
                             "$F7ACCESS,$HORIZONTAL,dash,lance",
                             "$F7ACCESS,claws,dash,lance",
                             "$F7ACCESS,hook,dash,lance",
-                            "$F9ACCESS8,djump,claws,dash,lance",
-                            "$F9ACCESS8,hook,dash,lance",
-                            "$F9ACCESS8,verboten,silva,claws,dash,lance",
-                            "$F10ACCESS8,$FULLSILVA,$HORIZONTAL,dash,lance"
+                            "$F9ACCESS8,hook,dash,lance"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Slip of Paper",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 4405,
+                        "y": 1090
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "F9",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,$LEDGE",
+                            "$F7ACCESS,$HORIZONTAL",
+                            "$F7ACCESS,claws",
+                            "$F7ACCESS,hook",
+                            "$F9ACCESS8,hook"
                         ],
                         "item_count": 1
                     }
@@ -426,6 +497,31 @@
                 ]
             },
             {
+                "name": "Finding - Hoenir's Diary II",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 5310,
+                        "y": 1535
+                    }
+                ],
+                "sections":[
+                    {
+                        "name": "F11",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS",
+                            "$F10ACCESS8"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Hoenir, Keeper Of The Abyss Fight",
                 "map_locations": [
                     {
@@ -445,6 +541,10 @@
                         [
                             "$F7ACCESS",
                             "$F10ACCESS8"
+                        ],
+                        "hosted_item": 
+                        [
+                            "defeatHoenir"
                         ],
                         "item_count": 2
                     }
@@ -468,7 +568,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$F13ACCESS"
+                            "$F13ACCESS,defeatHoenir"
                         ],
                         "item_count": 1
                     }
@@ -492,10 +592,10 @@
                         ],
                         "access_rules": 
                         [
-                            "$F13ACCESS,hook",
-                            "$F13ACCESS,silva,djump,$HORIZONTAL,claws",
-                            "$F13ACCESS,silva,djump,ulv,claws",
-                            "$F13ACCESS,$FULLSILVA"
+                            "$F13ACCESS,hook,defeatHoenir",
+                            "$F13ACCESS,silva,djump,$HORIZONTAL,claws,defeatHoenir",
+                            "$F13ACCESS,silva,djump,ulv,claws,defeatHoenir",
+                            "$F13ACCESS,$FULLSILVA,defeatHoenir"
                         ],
                         "item_count": 1
                     }
@@ -628,6 +728,31 @@
                 ]
             },
             {
+                "name": "Finding - Hoenir's Diary I",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 3960,
+                        "y": 710
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "F17",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$F7ACCESS,hook",
+                            "$F7ACCESS,silva,djump"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
@@ -745,6 +870,30 @@
                         "access_rules": 
                         [
                             "$StockadeACCESS,$LEDGE"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Forbidden Text Scrap",
+                "map_locations": [
+                    {
+                        "map": "Stockade",
+                        "x": 1625,
+                        "y": 1200
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "F23",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$StockadeACCESS"
                         ],
                         "item_count": 1
                     }

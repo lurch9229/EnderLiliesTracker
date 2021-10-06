@@ -163,6 +163,30 @@
                 ]
             },
             {
+                "name": "Finding - Coven Handbook",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 2850,
+                        "y": 675
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D4",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D4ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Amulet Fragment (+5 HP)",
                 "map_locations": [
                     {
@@ -173,7 +197,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "D5",
+                        "name": "D5 (In Pot)",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -325,6 +349,30 @@
                             "$D6ACCESS,djump,silva"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Sorcerer's Note",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 4865,
+                        "y": 1640
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D7",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D7ACCESS"
+                        ]
                     }
                 ]
             },
@@ -569,6 +617,31 @@
                 ]
             },
             {
+                "name": "Finding - The Parish Way III",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 6160,
+                        "y": 2700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D11",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D11ACCESS10",
+                            "$D11ACCESS8"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Dark Witch Eleine Fight",
                 "map_locations": [
                     {
@@ -667,6 +740,31 @@
                 ]
             },
             {
+                "name": "Finding - Tarnished Picture",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 4390,
+                        "y": 2210
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D14",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D14ACCESS,aquatic,$LEDGE",
+                            "$D14ACCESS,aquatic,claws"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Furious Blight x10",
                 "map_locations": [
                     {
@@ -740,6 +838,61 @@
                 ]
             },
             {
+                "name": "Finding - Faden's Archives III",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 4970,
+                        "y": 3070
+                    },
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2445,
+                        "y": 120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D16",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D16ACCESS",
+                            "$F26ACCESS,hammer,hook,dash,lance,mask",
+                            "$F26ACCESS,hammer,hook,dash,lance,$verbotenMath,$LEDGE"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Eleine's Diary I",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 6790,
+                        "y": 1560
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D17",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D17ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Amulet Gem (+20 HP)",
                 "map_locations": [
                     {
@@ -790,6 +943,31 @@
                 ]
             },
             {
+                "name": "Finding - Eleine's Diary II",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 6845,
+                        "y": 1440
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D17",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D17ACCESS,hook,$LEDGE",
+                            "$D17ACCESS,claws"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Fungal Sorcerer Fight",
                 "map_locations": [
                     {
@@ -811,6 +989,30 @@
                             
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Lover's Letter",
+                "map_locations": [
+                    {
+                        "map": "WitchesThicket",
+                        "x": 3340,
+                        "y": 240
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "D18",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$D18ACCESS"
+                        ]
                     }
                 ]
             },

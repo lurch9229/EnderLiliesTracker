@@ -30,6 +30,78 @@
                 ]
             },
             {
+                "name": "Finding - Statue Inscription",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 450,
+                        "y": 3120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A1",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Restoring the Aegis Curio",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 430,
+                        "y": 4410
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A10",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "unlock"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Eleine's Letter",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 4100,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A3",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Amulet Fragment (+5 HP)",
                 "map_locations": [
                     {
@@ -53,8 +125,56 @@
                         "item_count": 1
                     }
                 ]
+            },
+            {
+                "name": "Finding - On the Blighted I",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 5315,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A4",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - On the Blighted II",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 5640,
+                        "y": 3680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A4",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
+                    }
+                ]
             }, 
-          {
+            {
                 "name": "Amulet Fragment (+5 HP)",
                 "map_locations": [
                     {
@@ -76,6 +196,30 @@
                         ],
                         
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - The Parish Way",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 8410,
+                        "y": 3270
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A5",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            ""
+                        ]
                     }
                 ]
             },
@@ -123,6 +267,10 @@
                         "access_rules": 
                         [
                             ""
+                        ],
+                        "hosted_item": 
+                        [
+                            "defeatSiegrid"
                         ],
                         "item_count": 2
                     }
@@ -223,6 +371,30 @@
                             "claws,hook"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Lily's Note",
+                "map_locations": [
+                    {
+                        "map": "Cathedral",
+                        "x": 5150,
+                        "y": 600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A9",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "claws,hook"
+                        ]
                     }
                 ]
             }

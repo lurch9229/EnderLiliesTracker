@@ -5,6 +5,7 @@
         "chest_opened_img": "images/items/chest_o.png",
         "color": "#FFFFFF",
         "children": [
+
             {
                 "name": "Stagnant Blight x100",
                 "map_locations": [
@@ -65,7 +66,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G2",
+                        "name": "G2 In Pot",
                         "visibility_rules": 
                         [
                             "setting_chains"
@@ -92,7 +93,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G2",
+                        "name": "G2 In Pot",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -152,6 +153,54 @@
                             "$G3ACCESS,$FULLSILVA,dodge2",
                             "$G3ACCESS,silva,dodge2,djump,plume",
                             "$G3ACCESS,silva,dodge2,djump,dash"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Bloodied Note II",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 1820,
+                        "y": 2510
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "G4",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G3ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Note on the Castle Wall",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 2915,
+                        "y": 2525
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "G5",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G5ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -245,6 +294,30 @@
                         "visibility_rules": 
                         [
                             "setting_blight"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G6ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Hoenir's Diary III",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 3455,
+                        "y": 1920
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "G7",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
                         ],
                         "access_rules": 
                         [
@@ -368,6 +441,30 @@
                 ]
             },
             {
+                "name": "Finding - Monument Engraving",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 1540,
+                        "y": 1565
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "G10",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G13ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Chain Of Sorcery (+1 Relic Slot)",
                 "map_locations": [
                     {
@@ -378,7 +475,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "G11",
+                        "name": "G11 In Barrel",
                         "visibility_rules": 
                         [
                             "setting_chains"
@@ -496,6 +593,18 @@
                             "$G12ACCESS,hammer,hook,unlock"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Finding - Writing on the Wall",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G12ACCESS,hammer,hook,unlock"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -569,6 +678,30 @@
                             "$G13ACCESS,$HORIZONTAL,hook",
                             "$G13ACCESS,claws,hook",
                             "G13ACCESS,$LEDGE2"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Bloodied Note III",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 1190,
+                        "y": 1555
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "G13",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G3ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -748,6 +881,10 @@
                         [
                             "$G18ACCESS"
                         ],
+                        "hosted_item": 
+                        [
+                            "defeatUlv"
+                        ],
                         "item_count": 2
                     }
                 ]
@@ -770,9 +907,35 @@
                         ],
                         "access_rules": 
                         [
-                            "$G18ACCESS,claws",
-                            "$G18ACCESS,$FULLSILVA",
-                            "$G18ACCESS,silva,djump,dodge2"
+                            "$G18ACCESS,claws,defeatUlv",
+                            "$G18ACCESS,$FULLSILVA,defeatUlv",
+                            "$G18ACCESS,silva,djump,dodge2,defeatUlv"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - White Priestess' Bastion Letter",
+                "map_locations": [
+                    {
+                        "map": "TwinSpires",
+                        "x": 3162,
+                        "y": 180
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "G18",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$G18ACCESS,claws,defeatUlv",
+                            "$G18ACCESS,$FULLSILVA,defeatUlv",
+                            "$G18ACCESS,silva,djump,dodge2,defeatUlv"
                         ],
                         "item_count": 1
                     }

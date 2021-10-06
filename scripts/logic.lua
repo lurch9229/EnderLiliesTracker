@@ -148,10 +148,18 @@ end
 --------------------------------------------------AREA LOGIC------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------
+function B1ACCESS()
+  if has ("defeatSiegrid")
+  then
+    return 1
+  else
+    return 0
+  end
+end
 
 function B3ACCESS()
-  if has ("$LEDGE")
-  or has ("claws")
+  if (has ("$B1ACCESS") and has ("$LEDGE"))
+  or (has ("$B1ACCESS") and has ("claws"))
   then
     return 1
   else
@@ -434,7 +442,16 @@ function C18ACCESSH18()
 end
 
 function C19ACCESS()
-  if has ("$C8ACCESS")
+  if (has ("$C8ACCESS") and has ("defeatGerrod"))
+  then
+    return 1
+  else
+    return 0
+  end
+end
+
+function C19ACCESSC20()
+  if (has ("$C20ACCESSH1") and has ("claws"))
   then
     return 1
   else
@@ -564,7 +581,7 @@ function D10ACCESS()
   end
 end
 
-function D11ACCESS10() -- Witches Thicket from D10
+function D11ACCESS10()
   if (has ("$D10ACCESS") and has ("$LEDGE"))
   or (has ("$D10ACCESS") and has ("claws") and has ("faden"))
   or (has ("$D10ACCESS") and has ("claws") and has ("sentinel"))
@@ -687,12 +704,12 @@ function CatacombsACCESS()
   if has ("$C11ACCESS")
   or (has ("$C18ACCESSC16") and has ("djump") and has ("dodge2"))
   or (has ("$C18ACCESSC16") and has ("silva") and has ("djump"))
-  or (has ("$C18ACCESSC16") and has ("jump") and has ("ulv") and ("verboten"))
+  or (has ("$C18ACCESSC16") and has ("djump") and has ("ulv") and ("verboten"))
   or (has ("$C18ACCESSC16") and has ("sinner"))
   or (has ("$C18ACCESSC16") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
   or (has ("$C18ACCESSH18") and has ("djump") and has ("dodge2"))
   or (has ("$C18ACCESSH18") and has ("silva") and has ("djump"))
-  or (has ("$C18ACCESSH18") and has ("jump") and has ("ulv") and ("verboten"))
+  or (has ("$C18ACCESSH18") and has ("djump") and has ("ulv") and ("verboten"))
   or (has ("$C18ACCESSH18") and has ("sinner"))
   or (has ("$C18ACCESSH18") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
   then
@@ -722,7 +739,6 @@ end
 
 function E9ACCESS8()
   if (has ("$CatacombsACCESS") and has ("$LEDGE") and has ("aquatic"))
-  or (has ("$CatacombsACCESS") and has ("claws") and has ("aquatic"))
   or (has ("$CatacombsACCESS") and has ("plume") and has ("aquatic"))
   then
     return 1
@@ -790,6 +806,23 @@ function E17ACCESS()
   end
 end
 
+function E18ACCESSRev()
+  if (has ("$C18ACCESSC16") and has ("djump") and has ("dodge2"))
+  or (has ("$C18ACCESSC16") and has ("silva") and has ("djump"))
+  or (has ("$C18ACCESSC16") and has ("djump") and has ("ulv") and ("verboten"))
+  or (has ("$C18ACCESSC16") and has ("sinner"))
+  or (has ("$C18ACCESSC16") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
+  or (has ("$C18ACCESSH18") and has ("djump") and has ("dodge2"))
+  or (has ("$C18ACCESSH18") and has ("silva") and has ("djump"))
+  or (has ("$C18ACCESSH18") and has ("djump") and has ("ulv") and ("verboten"))
+  or (has ("$C18ACCESSH18") and has ("sinner"))
+  or (has ("$C18ACCESSH18") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
+  then
+    return 1
+  else
+    return 0
+  end
+end
 
 
 function E20ACCESS()
@@ -1196,6 +1229,7 @@ end
 
 function J4ACCESSF26()
   if (has ("$F26ACCESS") and has ("hook") and has ("hammer") and has ("dash") and has ("lance"))
+  or (has ("$F26ACCESS") and has ("claws") and has ("hammer") and has ("dash") and has ("lance") and has ("dodge2"))
   then
     return 1
   else

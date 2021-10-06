@@ -114,6 +114,25 @@
         ]
     },
     {
+        "name": "Shuffle Findings",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/findings_on.png",
+                "codes": "setting_findings",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/findings_off.png",
+                "codes": "setting_findings_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Shuffle C Ending Items",
         "type": "progressive",
         "allow_disabled": false,

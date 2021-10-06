@@ -108,7 +108,7 @@
                 ]
             },
             {
-                "name": "Amulet Fragment (+5 HP)",
+                "name": "Amulet Fragment (+5 HP) (In Barrel)",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -181,6 +181,30 @@
                             "$C2ACCESS,ulv"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - True Believer's Note",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3035,
+                        "y": 1315
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C3",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C3ACCESS"
+                        ]
                     }
                 ]
             },
@@ -469,6 +493,54 @@
                 ]
             },
             {
+                "name": "Finding - Hamlet Request I",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5740,
+                        "y": 1150
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C7",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C7ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Adherent's Letter",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 5900,
+                        "y": 1090
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C7",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C7ACCESS"
+                        ]
+                    }
+                ]
+            },
+            {
                 "name": "Stagnant Blight x10",
                 "map_locations": [
                     {
@@ -517,7 +589,7 @@
                 ]
             },
             {
-                "name": "Chain Of Sorcery (+1 Relic Slot)",
+                "name": "Chain Of Sorcery (+1 Relic Slot) (In Barrel)",
                 "map_locations": [
                     {
                         "map": "CliffsideHamletWest",
@@ -647,6 +719,30 @@
                             "$C18ACCESSH18,claws,silva,djump,dodge2,ulv"
                         ],
                         "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - True Believer's Note",
+                "map_locations": [
+                    {
+                        "map": "CliffsideHamletWest",
+                        "x": 3210,
+                        "y": 2810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "C12",
+                        "item_count": 1,
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules":
+                        [
+                            "$C10ACCESS9,dash,lance"
+                        ]
                     }
                 ]
             },

@@ -203,6 +203,35 @@
                 ]
             },
             {
+                "name": "Finding - Verboten Domain Notice",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 5140,
+                        "y": 1450
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J4",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J4ACCESSF26",
+                            "$D16ACCESS,dash,mask",
+                            "$D16ACCESS,dodge2,mask",
+                            "$D16ACCESS,dodge2,$domainMath",
+                            "$D16ACCESS,dash,$domainMath"
+                            
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Weathered Necklace",
                 "map_locations": [
                     {
@@ -334,8 +363,8 @@
                 "map_locations": [
                     {
                         "map": "VerbotenDomain",
-                        "x": 290,
-                        "y": 1390
+                        "x": 210,
+                        "y": 1410
                     }
                 ],
                 "sections": [
@@ -348,6 +377,30 @@
                         "access_rules": 
                         [
                             "$J7ACCESS,aquatic"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Faden's Archives IV",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 260,
+                        "y": 1330
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J7",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J7ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -599,6 +652,30 @@
                 ]
             },
             {
+                "name": "Finding - Faden's Archives II",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 4675,
+                        "y": 2885
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J12",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J11ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Amulet Fragment (+5 HP)",
                 "map_locations": [
                     {
@@ -647,6 +724,30 @@
                 ]
             },
             {
+                "name": "Finding - Faden's Archives I",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 2800,
+                        "y": 3275
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "J14",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Stagnant Blight x800",
                 "map_locations": [
                     {
@@ -682,7 +783,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "J16",
+                        "name": "Faden",
                         "visibility_rules": 
                         [
                             "setting_spirits"
@@ -692,6 +793,54 @@
                             "$J14ACCESS"
                         ],
                         "item_count": 2
+                    },
+                    {
+                        "name": "Finding - Miriel's Blighted Letter",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Finding - Faden's Archives V",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$J14ACCESS"
+                        ],
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Silva's Bloodstained Note I",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1758,
+                        "y": 3630
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K1",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K1ACCESS"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -714,6 +863,54 @@
                         "access_rules": 
                         [
                             "$K1ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Silva's Bloodstained Note II",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1910,
+                        "y": 4850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K2",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Finding - Fretia's Memoirs V",
+                "map_locations": [
+                    {
+                        "map": "VerbotenDomain",
+                        "x": 1765,
+                        "y": 4725
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "K2",
+                        "visibility_rules": 
+                        [
+                            "setting_findings"
+                        ],
+                        "access_rules": 
+                        [
+                            "$K2ACCESS"
                         ],
                         "item_count": 1
                     }
@@ -901,7 +1098,31 @@
                         "item_count": 1 
                     }
                 ]
-            }
-        ]
+            },
+            {
+            "name": "Finding - The Deathless Pact",
+            "map_locations": [
+                {
+                    "map": "VerbotenDomain",
+                    "x": 4680,
+                    "y": 4380
+                }
+            ],
+            "sections": [
+                {
+                    "name": "K5",
+                    "visibility_rules": 
+                    [
+                        "setting_findings"
+                    ],
+                    "access_rules": 
+                    [
+                        "$K5ACCESS"
+                    ],
+                    "item_count": 1 
+                }
+            ]
+        }
+        ] 
     }
 ]
