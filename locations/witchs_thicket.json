@@ -807,7 +807,7 @@
                         "access_rules": 
                         [
                             "$D15ACCESS,hook",
-                            "$D15ACCESS,claw"
+                            "$D15ACCESS,claws"
                         ],
                         "item_count": 1
                     }

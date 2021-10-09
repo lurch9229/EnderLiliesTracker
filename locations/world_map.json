@@ -1740,7 +1740,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Floral SOrceress Fight",
+                        "name": "Floral Sorceress Fight",
                         "visibility_rules": 
                         [
                             "setting_spirits"
@@ -2039,7 +2039,7 @@
                         "access_rules": 
                         [
                             "$D15ACCESS,hook",
-                            "$D15ACCESS,claw"
+                            "$D15ACCESS,claws"
                         ],
                         "item_count": 1
                     },
@@ -2088,8 +2088,8 @@
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7570,
-                        "y": 3905
+                        "x": 7625,
+                        "y": 3620
                     }
                 ],
                 "sections": [
@@ -2202,8 +2202,8 @@
                 "map_locations": [
                     {
                         "map": "WorldMap",
-                        "x": 7625,
-                        "y": 3620
+                        "x": 7570,
+                        "y": 3905
                     }
                 ],
                 "sections": [
@@ -3990,7 +3990,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Amulet Fragment (+5 HP) (In Pot)",
+                        "name": "Amulet Fragment (+5 HP) (In Barrel))",
                         "visibility_rules": 
                         [
                             "setting_amulets"
@@ -4473,7 +4473,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chain Of Sorcery (+1 Relic Slot)",
+                        "name": "Chain Of Sorcery (+1 Relic Slot) (In Crate)",
                         "visibility_rules": 
                         [
                             "setting_chains"
@@ -5440,7 +5440,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Amulet Fragment (+5 HP)",
+                        "name": "Amulet Fragment (+5 HP) (In Crate)",
                         "visibility_rules": 
                         [
                             "setting_amulets"

@@ -669,6 +669,8 @@ function D17ACCESS()
   or (has ("$D9ACCESS") and has ("claws") and has ("$LEDGE2"))
   or (has ("$D9ACCESS") and has ("djump") and has ("$HORIZONTAL2"))
   or (has ("$D9ACCESS") and has ("$FULLSILVA") and has ("ulv"))
+  or (has ("$D9ACCESS") and has ("djump") and has ("$HORIZONTAL") and has ("verboten"))
+  or (has ("$D9ACCESS") and has ("djump") and has ("$HORIZONTAL") and has ("silva"))
   then
     return 1
   else
@@ -1320,8 +1322,8 @@ function J13ACCESSW()
 end
 
 function J13ACCESSE()
-  if (has ("$VerbotenDomainACCESS") and has ("aquatic") and has ("$domainMath"))
-  or (has ("$VerbotenDomainACCESS") and has ("mask") and has ("aquatic"))
+  if (has ("$VerbotenDomainACCESS") and has ("aquatic") and has ("$domainMath") and has ("dash") and has ("lance"))
+  or (has ("$VerbotenDomainACCESS") and has ("mask") and has ("aquatic") and has ("dash") and has ("lance"))
   then
     return 1
   else
