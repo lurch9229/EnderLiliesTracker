@@ -369,6 +369,7 @@ function C16ACCESS()
     return 0
   end
 end
+
 function C17ACCESSH18()
   if (has ("$H18ACCESS") and has ("$FULLSILVA"))
   or (has ("$H18ACCESS") and has ("hook") and has ("$LEDGE"))
