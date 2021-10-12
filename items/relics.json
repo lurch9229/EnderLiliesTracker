@@ -1,114 +1,86 @@
 [
   {
     "name": "Ancient Dragon Claw",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/ancient_dragon_claw.png",
-    "codes": "dragonclaw",
-    "max_quantity": 2,
-    "increment": 2,
-	  "swap_actions": false
+    "codes": "dragonclaw"
   },
   {
     "name": "Aura's Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/auras_ring.png",
-    "codes": "aura",
-    "max_quantity": 3,
-    "increment": 3,
-	  "action_swap": false
+    "codes": "aura"
   },
   {
     "name": "Blighted Appendage",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/blighted_appendage.png",
-    "codes": "appendage",
-    "max_quantity": 3,
-    "increment": 3,
-	  "action_swap": false
+    "codes": "appendage"
   },
   {"name": "Blighted Phantom",
     "type": "toggle",
     "loop": "false",
     "img": "images/relics/blighted_phantom.png",
-    "codes": "phantom",
-	  "action_swap": false
+    "codes": "phantom"
   },
   {
     "name": "Blightwreathed Blade",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/blightwreathed_blade.png",
-    "codes": "blightblade",
-    "max_quantity": 2,
-    "increment": 2,
-	  "action_swap": false
+    "codes": "blightblade"
   },
   {
     "name": "Bloodstained Ribbon",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/bloodstained_ribbon.png",
-    "codes": "ribbon",
-    "max_quantity": 1,
-    "increment": 1,
-	  "action_swap": false
+    "codes": "ribbon"
   },
   {
     "name": "Broken Music Box",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/broken_music_box.png",
-    "codes": "music",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "music"
   },
   {
     "name": "Caliva's Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/calivas_ring.png",
-    "codes": "caliva",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "caliva"
   },
   {
     "name": "Cracked Familiar Stone",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/cracked_familiar_stone.png",
-    "codes": "familiar",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "familiar"
   },
   {
     "name": "Decayed Crown",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/decayed_crown.png",
-    "codes": "crown",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "crown"
   },
   {
     "name": "Eldred's Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/eldreds_ring.png",
-    "codes": "eldred",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "eldred"
   },
   {
     "name": "Executioner's Gloves",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/executioners_gloves.png",
-    "codes": "executionergloves",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "executionergloves"
   },
   {
     "name": "Fretia's Ring",
@@ -119,48 +91,38 @@
   },
   {
     "name": "Giant's Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/giants_ring.png",
-    "codes": "giant",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "giant"
   },
   {
     "name": "Heretic's Mask",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/heretics_mask.png",
-    "codes": "heretic,mask",
-    "max_quantity": 1,
-    "increment": 1
+    "codes": "heretic,mask"
   },
   {
     "name": "Holy Spring Water",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/holy_spring_water.png",
-    "codes": "holywater",
-    "max_quantity": 1,
-    "increment": 1
+    "codes": "holywater"
   },
   {
     "name": "Immortal's Crest",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/immortals_crest.png",
-    "codes": "immortal",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "immortal"
   },
   {
     "name": "Kilteus' Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/kilteus_ring.png",
-    "codes": "kilteus",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "kilteus"
   },
   {
     "name": "Lost Heirloom",
@@ -178,181 +140,139 @@
   },
   {
     "name": "Manisa's Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/manisas_ring.png",
-    "codes": "manisa",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "manisa"
   },
   {
     "name": "Nymphilia's Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/nymphilias_ring.png",
-    "codes": "nymphilia",
-    "max_quantity": 1,
-    "increment": 1
+    "codes": "nymphilia"
   },
   {
     "name": "Priestess' Doll",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/priestess_doll.png",
-    "codes": "doll",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "doll"
   },
   {
     "name": "Ricorus' Ring",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/ricorus_ring.png",
-    "codes": "ricorus",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "ricorus"
   },
   {
     "name": "Royal Aegis Crest",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/royal_aegis_crest.png",
-    "codes": "royalcrest,aegis",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "royalcrest,aegis"
   },
   {
     "name": "Ruined Witch's Book",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/ruined_witchs_book.png",
-    "codes": "witchbook",
-    "max_quantity": 1,
-    "increment": 1
+    "codes": "witchbook"
   },
   {
     "name": "Rusted Blue Ornament",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/rusted_blue_ornament.png",
-    "codes": "ornament",
-    "max_quantity": 1,
-    "increment": 1
+    "codes": "ornament"
   },
   {
     "name": "Snowdrop Bracelet",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/snowdrop_bracelet.png",
-    "codes": "snowdrop",
-    "max_quantity": 4,
-    "increment": 4
+    "codes": "snowdrop"
   },
   {
     "name": "Soiled Prayer Beads",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/soiled_prayer_beads.png",
-    "codes": "prayerbeads",
-    "max_quantity": 1,
-    "increment": 1
+    "codes": "prayerbeads"
   },
   {
     "name": "Spellbound Anklet",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/spellbound_anklet.png",
-    "codes": "spellbound,anklet",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "spellbound,anklet"
   },
   {
     "name": "Vibrant Plume",
-    "type": "consumable",
+    "type": "toggle",
     "loop": "false",
     "img": "images/relics/vibrant_plume.png",
-    "codes": "plume",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "plume"
   },
   {
     "name": "Weathered Necklace",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/weathered_necklace.png",
-    "codes": "weatherneck",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "weatherneck"
   },
   {
     "name": "White Priestess' Earrings",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/white_priestess_earrings.png",
-    "codes": "earrings",
-    "max_quantity": 2,
-    "increment": 2
+    "codes": "earrings"
   },
   {
     "name": "White Priestess Statue",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/white_priestess_statue.png",
-    "codes": "statue",
-    "max_quantity": 4,
-    "increment": 4
-  },
+    "codes": "statue"
+  }, 
   {
     "name": "Iris' Ring (UNUSED)",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/iris_ring.png",
-    "codes": "iris",
-    "max_quantity": 1,
-    "increment": 1
+    "codes": "iris"
   },
   {
     "name": "Sinner's Hood (UNUSED)",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/sinners_hood.png",
-    "codes": "hood",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "hood"
   },
   {
     "name": "Melville's Gift (UNUSED)",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/melvilles_gift.png",
-    "codes": "gift",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "gift"
   },
   {
     "name": "Faden's Orb (UNUSED)",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/fadens_orb.png",
-    "codes": "orb",
-    "max_quantity": 3,
-    "increment": 3
-  },
+    "codes": "orb"
+  }, 
   {
     "name": "Heiml's Pride (UNUSED)",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/heimls_pride.png",
-    "codes": "heiml",
-    "max_quantity": 3,
-    "increment": 3
+    "codes": "heiml"
   },
   {
     "name": "Miriel's Ring (UNUSED)",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/miriels_ring.png",
-    "codes": "miriel",
-    "max_quantity": 4,
-    "increment": 4
+    "codes": "miriel"
   },
   {
     "name": "Groa's Ring (UNUSED)",
-    "type": "consumable",
+    "type": "toggle",
     "img": "images/relics/groas_ring.png",
-    "codes": "groa",
-    "max_quantity": 4,
-    "increment": 4
-  }
+    "codes": "groa"
+  } 
 ]

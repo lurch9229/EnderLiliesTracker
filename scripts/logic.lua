@@ -11,7 +11,7 @@ end
 
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------ABILITY LOGIC-----------------------------------------------------------
+--------------------------------------------------ABILITY+CUSTOM LOGIC----------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------
  
@@ -122,6 +122,8 @@ function domainMath()
   if (hp >= 150 and wishNum(3) and has ("spellbound") and slotNum(5) and has ("dodge2"))
   or (hp >= 150 and has ("holywater") and has ("spellbound") and slotNum(6) and has ("dodge2"))
   or (hp >=120 and wishNum(3) and has ("dodge2") and has ("dash"))
+  or (hp >= 150 and has ("spellbound") and has ("shuffle_slots") and slotNum(12) and has ("dodge2"))
+  or (hp >= 150 and has ("spellbound") and has ("holywater") and has ("shuffle_slots") and slotNum(16) and has ("dodge2"))
   then
     return 1
   else
@@ -1371,6 +1373,7 @@ end
 
 function K5ACCESS()
   if (has ("$K4ACCESS") and has ("$abyssGauntlet") and has ("dodge2") and has ("dash") and has ("djump") and has ("aquatic") and has ("hook") and has ("hammer") and has ("spellbound") and has ("witchbook") and wishNum(6) and has ("holywater") and slotNum(7))
+  or (has ("$K4ACCESS") and has ("setting_slots") and has ("$abyssGauntlet") and has ("dodge2") and has ("dash") and has ("djump") and has ("aquatic") and has ("hook") and has ("hammer") and has ("spellbound") and has ("witchbook") and wishNum(6) and has ("holywater") and slotNum(16)))
   then
     return 1
   else

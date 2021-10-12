@@ -150,5 +150,24 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Shuffle Relic Costs",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/costs_on.png",
+                "codes": "setting_costs",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/costs_off.png",
+                "codes": "setting_costs_off",
+                "inherit_codes": false
+            }
+        ]
     }
 ]
