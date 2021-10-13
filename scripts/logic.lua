@@ -124,6 +124,7 @@ function domainMath()
   or (hp >=120 and wishNum(3) and has ("dodge2") and has ("dash"))
   or (hp >= 150 and has ("spellbound") and has ("shuffle_slots") and slotNum(12) and has ("dodge2"))
   or (hp >= 150 and has ("spellbound") and has ("holywater") and has ("shuffle_slots") and slotNum(16) and has ("dodge2"))
+  or (hp >= 175) and has ("dodge2") and wishNum(3))
   then
     return 1
   else
@@ -385,7 +386,7 @@ end
 
 function C17ACCESSC16()
   if (has ("$C16ACCESS") and has ("claws") and has ("$HORIZONTAL2"))
-  or (has ("$C16ACCESS") and has ("claws") and has ("$FULLSILVA") and has ("#HORIZONTAL"))
+  or (has ("$C16ACCESS") and has ("claws") and has ("$FULLSILVA") and has ("$HORIZONTAL"))
   or (has ("$C16ACCESS") and has ("claws") and has ("$HORIZONTAL2") and has ("verboten"))
   or (has ("$C16ACCESS") and has ("claws") and has ("dodge2") and has ("dash") and has ("verboten") and has ("silva"))
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("$HORIZONTAL"))
@@ -673,7 +674,7 @@ function D17ACCESS()
   or (has ("$D9ACCESS") and has ("djump") and has ("$HORIZONTAL2"))
   or (has ("$D9ACCESS") and has ("$FULLSILVA") and has ("ulv"))
   or (has ("$D9ACCESS") and has ("djump") and has ("$HORIZONTAL") and has ("verboten"))
-  or (has ("$D9ACCESS") and has ("djump") and has ("$HORIZONTAL") and has ("silva"))
+  or (has ("$D9ACCESS") and has ("$HORIZONTAL") and has ("silva"))
   then
     return 1
   else
@@ -1373,7 +1374,7 @@ end
 
 function K5ACCESS()
   if (has ("$K4ACCESS") and has ("$abyssGauntlet") and has ("dodge2") and has ("dash") and has ("djump") and has ("aquatic") and has ("hook") and has ("hammer") and has ("spellbound") and has ("witchbook") and wishNum(6) and has ("holywater") and slotNum(7))
-  or (has ("$K4ACCESS") and has ("setting_slots") and has ("$abyssGauntlet") and has ("dodge2") and has ("dash") and has ("djump") and has ("aquatic") and has ("hook") and has ("hammer") and has ("spellbound") and has ("witchbook") and wishNum(6) and has ("holywater") and slotNum(16)))
+  or (has ("$K4ACCESS") and has ("setting_slots") and has ("$abyssGauntlet") and has ("dodge2") and has ("dash") and has ("djump") and has ("aquatic") and has ("hook") and has ("hammer") and has ("spellbound") and has ("witchbook") and wishNum(6) and has ("holywater") and slotNum(16))
   then
     return 1
   else

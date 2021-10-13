@@ -1989,7 +1989,8 @@
                             "$D14ACCESS,aquatic,verboten",
                             "$D14ACCESS,aquatic,djump",
                             "$D14ACCESS,aquatic,claw,silva",
-                            "$D14ACCESS,aquatic,silva,plume"
+                            "$D14ACCESS,aquatic,silva,plume",
+                            "$D14ACCESS,aquatic,silva,dodge2"
                         ],
                         "item_count": 1
                     },
@@ -3168,7 +3169,8 @@
                         "access_rules": 
                         [
                             "$StockadeACCESS,hook",
-                            "$StockadeACCESS,djump,silva"
+                            "$StockadeACCESS,djump,silva",
+                            "$StockadeACCESS,$HORIZONTAL,djump,verboten"
                         ],
                         "item_count": 1
                     },
@@ -5162,7 +5164,8 @@
                         [
                             "$RuinedCastleACCESS,claws,$FULLSILVA,dodge2",
                             "$RuinedCastleACCESS,claws,$LEDGE2,$HORIZONTAL2",
-                            "$RuinedCastleACCESS,claws,$LEDGE2,dodge2,dash"
+                            "$RuinedCastleACCESS,claws,$LEDGE2,dodge2,dash",
+                            "$RuinedCastleACCESS,claws,silva,$HORIZONTAL2"
                         ],
                         
                         "item_count": 1

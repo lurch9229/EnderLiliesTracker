@@ -733,7 +733,8 @@
                             "$D14ACCESS,aquatic,verboten",
                             "$D14ACCESS,aquatic,djump",
                             "$D14ACCESS,aquatic,claw,silva",
-                            "$D14ACCESS,aquatic,silva,plume"
+                            "$D14ACCESS,aquatic,silva,plume",
+                            "$D14ACCESS,aquatic,silva,dodge2"
                         ],
                         "item_count": 1
                     }
