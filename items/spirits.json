@@ -215,7 +215,7 @@
 	"type": "consumable",
   "max_quantity": 6,
   "increment": 1,
-	"initial_active_state": true,
+	"min_quantity": 1,
 	"allow_disabled": false,
 	"img": "images/spirits/umbral_knight.png",
     "codes": "umbral"

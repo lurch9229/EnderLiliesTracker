@@ -124,7 +124,7 @@ function domainMath()
   or (hp >=120 and wishNum(3) and has ("dodge2") and has ("dash"))
   or (hp >= 150 and has ("spellbound") and has ("shuffle_slots") and slotNum(12) and has ("dodge2"))
   or (hp >= 150 and has ("spellbound") and has ("holywater") and has ("shuffle_slots") and slotNum(16) and has ("dodge2"))
-  or (hp >= 175) and has ("dodge2") and wishNum(3))
+  or (hp >= 175 and has ("dodge2") and wishNum(3))
   then
     return 1
   else
