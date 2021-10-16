@@ -275,7 +275,9 @@
                         "access_rules": 
                         [
                             "$VerbotenDomainACCESS,$domainMath,$LEDGE,$HORIZONTAL",
-                            "$VerbotenDomainACCESS,mask,$LEDGE,$HORIZONTAL"
+                            "$VerbotenDomainACCESS,$domainMath,silva,djump",
+                            "$VerbotenDomainACCESS,mask,$LEDGE,$HORIZONTAL",
+                            "$VerbotenDomainACCESS,mask,silva,djump"
                         ],
                         "item_count": 1
                     }
@@ -766,7 +768,8 @@
                         "access_rules": 
                         [
                             "$J14ACCESS,$LEDGE,claws,$HORIZONTAL2",
-                            "$J14ACCESS,$LEDGE2,dodge2,claws"
+                            "$J14ACCESS,$LEDGE2,dodge2,claws",
+                            "$J14ACCESS,$FULLSILVA,claws"
                         ],
                         "item_count": 1
                     }
@@ -954,7 +957,7 @@
                         "name": "Ending B",
                         "visibility_rules": 
                         [
-                            "setting_relics"
+                            "setting_hidden"
                         ],
                         "access_rules": 
                         [
@@ -966,7 +969,7 @@
                         "name": "Ending C",
                         "visibility_rules": 
                         [
-                            "setting_c_end,setting_relics"
+                            "setting_hidden"
                         ],
                         "access_rules": 
                         [
@@ -997,7 +1000,8 @@
                             "$K2ACCESS,claws,$LEDGE,$HORIZONTAL,",
                             "$K2ACCESS,$HORIZONTAL2",
                             "$K2ACCESS,silva,djump,dodge2,ulv",
-                            "$K2ACCESS,claws,$LEDGE2"
+                            "$K2ACCESS,claws,$LEDGE2,dash",
+                            "$K2ACCESS,claws,silva,djump,dash"
                         ],
                         "item_count": 1
                     }

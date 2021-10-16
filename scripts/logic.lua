@@ -394,6 +394,7 @@ function C17ACCESSC16()
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("verboten"))
   or (has ("$C16ACCESS") and has ("silva") and has ("djump") and has ("dodge2") and has ("hook"))
   or (has ("$C16ACCESS") and has ("$FULLSILVA") and has ("hook"))
+  or (has ("$C16ACCESS") and has ("silva") and has ("verboten") and has ("dodge2") and has ("hook"))
   then
     return 1
   else
@@ -421,6 +422,7 @@ function C18ACCESSC16()
   or (has ("$C16ACCESS") and has ("claws") and has ("hook") and has ("verboten"))
   or (has ("$C16ACCESS") and has ("silva") and has ("djump") and has ("dodge2") and has ("hook"))
   or (has ("$C16ACCESS") and has ("$FULLSILVA") and has ("hook"))
+  or (has ("$C16ACCESS") and has ("silva") and has ("verboten") and has ("dodge2") and has ("hook"))
   then
     return 1
   else
@@ -675,6 +677,7 @@ function D17ACCESS()
   or (has ("$D9ACCESS") and has ("$FULLSILVA") and has ("ulv"))
   or (has ("$D9ACCESS") and has ("djump") and has ("$HORIZONTAL") and has ("verboten"))
   or (has ("$D9ACCESS") and has ("$HORIZONTAL") and has ("silva"))
+  or (has ("$D9ACCESS") and has ("$LEDGE") and has ("dash") and has ("claws"))
   then
     return 1
   else
@@ -725,6 +728,7 @@ function CatacombsACCESS()
   or (has ("$C18ACCESSH18") and has ("djump") and has ("ulv") and ("verboten"))
   or (has ("$C18ACCESSH18") and has ("sinner"))
   or (has ("$C18ACCESSH18") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
+  or (has ("$C18ACCESSH18") and has ("silva") and has ("dodge2"))
   then
     return 1
   else
@@ -830,6 +834,7 @@ function E18ACCESSRev()
   or (has ("$C18ACCESSH18") and has ("djump") and has ("ulv") and ("verboten"))
   or (has ("$C18ACCESSH18") and has ("sinner"))
   or (has ("$C18ACCESSH18") and has ("silva") and has ("verboten") and has ("ulv") and has ("fretia"))
+  or (has ("$C18ACCESSH18") and has ("silva") and has ("dodge2"))
   then
     return 1
   else

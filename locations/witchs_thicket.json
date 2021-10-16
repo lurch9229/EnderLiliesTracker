@@ -53,7 +53,8 @@
                             "$D2ACCESS,djump",
                             "$D2ACCESS,dodge2,silva",
                             "$D2ACCESS,anklet,plume,silva,$AIRSTALL",
-                            "$D2ACCESS,anklet,dodge2,dash,$LEDGE"
+                            "$D2ACCESS,anklet,dodge2,dash,$LEDGE",
+                            "$D2ACCESS,silva,claws"
                         ],
                         "item_count": 1
                     }
@@ -470,15 +471,12 @@
                         "access_rules": 
                         [
                             "$D8ACCESS7,$HORIZONTAL,aquatic",
-                            "$D8ACCESS7,djump,aquatic",
-                            "$D8ACCESS7,verboten,silva,aquatic",
-                            "$D8ACCESS7,silva,ulv,aquatic",
-                            "$D8ACCESS7,verboten,ulv,aquatic",
+                            "$D8ACCESS7,$LEDGE",
                             "$D8ACCESS11,$HORIZONTAL,aquatic",
                             "$D8ACCESS11,djump,aquatic",
-                            "$D8ACCESS11,verboten,silva,aquatic",
-                            "$D8ACCESS11,silva,ulv,aquatic",
-                            "$D8ACCESS11,verboten,ulv,aquatic"
+                            "$D8ACCESS11,$LEDGE",
+                            "$D8ACCESS7,aquatic,dash",
+                            "$D8ACCESS11,dash,aquatic"
                         ],
                         "item_count": 1
                     }
@@ -530,7 +528,8 @@
                             "$D8ACCESS7,,hook,aquatic",
                             "$D8ACCESS7,$LEDGE,$HORIZONTAL2,aquatic",
                             "$D8ACCESS11,hook,aquatic",
-                            "$D8ACCESS11,claw,aquatic,$HORIZONTAL",
+                            "$D8ACCESS7,claws,aquatic",
+                            "$D8ACCESS11,claws,aquatic",
                             "$D8ACCESS11,$LEDGE,$HORIZONTAL2,aquatic",
                             "$D8ACCESS7,$FULLSILVA,ulv,$HORIZONTAL,aquatic"
                         ],
@@ -732,7 +731,7 @@
                         [
                             "$D14ACCESS,aquatic,verboten",
                             "$D14ACCESS,aquatic,djump",
-                            "$D14ACCESS,aquatic,claw,silva",
+                            "$D14ACCESS,aquatic,claws,silva",
                             "$D14ACCESS,aquatic,silva,plume",
                             "$D14ACCESS,aquatic,silva,dodge2"
                         ],
